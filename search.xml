@@ -32,12 +32,17 @@ shoka 主题功能介绍补充点：<span class="exturl" data-url="aHR0cHM6Ly93d
 </div>
 <div class="note default">
 <p>Algolia 实现搜索功能补充点：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MTczNDA0L2FydGljbGUvZGV0YWlscy8xMjI4NjEzMjE=">https://blog.csdn.net/qq_45173404/article/details/122861321</span><br />
- 评论区基本功能：<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQvJUUzJTgwJTkwJUU4JUJGJTk5JUU5JTgzJUE4JUU1JTg4JTg2JUU3JUFDJTk0JUU4JTgwJTg1JUU4JUJGJTk4JUU1JTlDJUE4JUU1JThBJUFBJUU1JThBJTlC">https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/【这部分笔者还在努力</span> 😭 】</p>
+ 评论区基本功能：<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQv">https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/</span> 【这部分笔者还在努力😭】</p>
 </div>
 <div class="note default">
 <p>shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0Fub3RoZXIv">https://www.reversesacle.com/Computer-science/Shoka-Theme/Another/</span><br />
  主要图片及图床配置： <span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0ltYWdlLw==">https://www.reversesacle.com/Computer-science/Shoka-Theme/Image/</span><br />
 shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW5kZXJkaC5jbi9jYXRlZ29yaWVzL1NIT0tBLw==">https://www.lavenderdh.cn/categories/SHOKA/</span></p>
+</div>
+<h1 id="小细节"><a class="anchor" href="#小细节">#</a> 小细节</h1>
+<div class="note default">
+<p>“about” 这个界面在哪个文件里面做的？<br />
+在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
 ]]></content>
   </entry>
