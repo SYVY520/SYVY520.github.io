@@ -8,7 +8,32 @@
     <author>
       <name>SYVY</name>
     </author>
-    <updated>2022-10-22T12:44:18.298Z</updated>
+    <updated>2022-10-23T08:03:27.380Z</updated>
+    <entry>
+        <id>http://example.com/url/</id>
+        <title></title>
+        <link rel="alternate" href="http://example.com/url/"/>
+        <content type="html"></content>
+        <updated>2022-10-23T08:03:27.380Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/friends/</id>
+        <title></title>
+        <link rel="alternate" href="http://example.com/friends/"/>
+        <content type="html">&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
+        <updated>2022-10-23T08:03:12.179Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/about/</id>
+        <title></title>
+        <link rel="alternate" href="http://example.com/about/"/>
+        <content type="html"></content>
+        <updated>2022-10-23T07:41:12.799Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/html/</id>
         <title></title>
