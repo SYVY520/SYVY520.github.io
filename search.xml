@@ -32,7 +32,10 @@ shoka 主题功能介绍补充点：<span class="exturl" data-url="aHR0cHM6Ly93d
 </div>
 <div class="note default">
 <p>Algolia 实现搜索功能补充点：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MTczNDA0L2FydGljbGUvZGV0YWlscy8xMjI4NjEzMjE=">https://blog.csdn.net/qq_45173404/article/details/122861321</span><br />
- 评论区基本功能：<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQv">https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/</span> 【这部分笔者还在努力😭】</p>
+ 评论区基本功能：<span class="exturl" data-url="aHR0cHM6Ly92YWxpbmUuanMub3JnL3F1aWNrc3RhcnQuaHRtbA==">https://valine.js.org/quickstart.html</span> 【笔者注册的是国内版本】<br />
+评论区基本功能：<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQv">https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/</span><br />
+ 评论区基本功能：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xMDYxNjYzNDU=">https://zhuanlan.zhihu.com/p/106166345</span><br />
+ 评论区三者建议同时看❤️</p>
 </div>
 <div class="note default">
 <p>shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0Fub3RoZXIv">https://www.reversesacle.com/Computer-science/Shoka-Theme/Another/</span><br />
@@ -45,6 +48,17 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
 ]]></content>
+  </entry>
+  <entry>
+    <title>CSS学习笔记</title>
+    <url>/css/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -65,5 +79,11 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
     <title>HTML学习笔记</title>
     <url>/html/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
   </entry>
 </search>

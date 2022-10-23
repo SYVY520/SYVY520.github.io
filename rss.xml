@@ -10,12 +10,23 @@
         </author>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sun, 23 Oct 2022 19:39:48 +0800</pubDate>
-        <lastBuildDate>Sun, 23 Oct 2022 19:39:48 +0800</lastBuildDate>
+        <pubDate>Mon, 24 Oct 2022 01:03:49 +0800</pubDate>
+        <lastBuildDate>Mon, 24 Oct 2022 01:03:49 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/css/</guid>
+            <title>CSS学习笔记</title>
+            <link>http://example.com/css/</link>
+            <category term="前端" scheme="http://example.com/categories/front/" />
+            <category term="CSS" scheme="http://example.com/tags/css/" />
+            <pubDate>Mon, 24 Oct 2022 01:03:49 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/html/</guid>
             <title>HTML学习笔记</title>
             <link>http://example.com/html/</link>
+            <category term="前端" scheme="http://example.com/categories/front/" />
+            <category term="HTML" scheme="http://example.com/tags/HTML/" />
             <pubDate>Sun, 23 Oct 2022 19:39:48 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
@@ -53,7 +64,10 @@ shoka 主题功能介绍补充点：&lt;span class=&#34;exturl&#34; data-url=&#3
 &lt;/div&gt;
 &lt;div class=&#34;note default&#34;&gt;
 &lt;p&gt;Algolia 实现搜索功能补充点：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MTczNDA0L2FydGljbGUvZGV0YWlscy8xMjI4NjEzMjE=&#34;&gt;https://blog.csdn.net/qq_45173404/article/details/122861321&lt;/span&gt;&lt;br /&gt;
- 评论区基本功能：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQv&#34;&gt;https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/&lt;/span&gt; 【这部分笔者还在努力😭】&lt;/p&gt;
+ 评论区基本功能：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92YWxpbmUuanMub3JnL3F1aWNrc3RhcnQuaHRtbA==&#34;&gt;https://valine.js.org/quickstart.html&lt;/span&gt; 【笔者注册的是国内版本】&lt;br /&gt;
+评论区基本功能：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQv&#34;&gt;https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/&lt;/span&gt;&lt;br /&gt;
+ 评论区基本功能：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xMDYxNjYzNDU=&#34;&gt;https://zhuanlan.zhihu.com/p/106166345&lt;/span&gt;&lt;br /&gt;
+ 评论区三者建议同时看❤️&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;note default&#34;&gt;
 &lt;p&gt;shoka 额外添加配置：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0Fub3RoZXIv&#34;&gt;https://www.reversesacle.com/Computer-science/Shoka-Theme/Another/&lt;/span&gt;&lt;br /&gt;
