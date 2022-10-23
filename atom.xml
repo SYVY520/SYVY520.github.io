@@ -8,38 +8,56 @@
     <author>
       <name>SYVY</name>
     </author>
-    <updated>2022-10-23T08:03:27.380Z</updated>
-    <entry>
-        <id>http://example.com/url/</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/url/"/>
-        <content type="html"></content>
-        <updated>2022-10-23T08:03:27.380Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/friends/</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/friends/"/>
-        <content type="html">&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;/images/404.png&#34;&gt;&lt;/span&gt;
-          &lt;div class=&#34;info&#34;&gt;
-          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
-          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
-          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
-        <updated>2022-10-23T08:03:12.179Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/about/</id>
-        <title></title>
-        <link rel="alternate" href="http://example.com/about/"/>
-        <content type="html"></content>
-        <updated>2022-10-23T07:41:12.799Z</updated>
-    </entry>
+    <updated>2022-10-23T11:39:48.755Z</updated>
     <entry>
         <id>http://example.com/html/</id>
-        <title></title>
+        <title>HTML学习笔记</title>
         <link rel="alternate" href="http://example.com/html/"/>
         <content type="html"></content>
-        <updated>2022-10-22T12:44:18.298Z</updated>
+        <updated>2022-10-23T11:39:48.755Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/blog/</id>
+        <title>Hexo博客搭建：配置【主题：shoka】</title>
+        <link rel="alternate" href="http://example.com/blog/"/>
+        <content type="html">&lt;h1 id=&#34;事件起因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#事件起因&#34;&gt;#&lt;/a&gt; 事件起因&lt;/h1&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;作为一个从未搭建过博客的小白，第一次搭建博客部署主题就对shoka主题惊为天人，开始了搭建博客的过程。然而搭建博客的过程繁琐而复杂，shoka主题也有很多整不清楚的地方，在查找了大量教程之后，基本实现了shoka主题的一些功能。&lt;/summary&gt;&lt;div&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h1 id=&#34;搭建博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建博客&#34;&gt;#&lt;/a&gt; 搭建博客&lt;/h1&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;个人博客基础配置建议看教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLm1vZWh6LmNvbS9hcmNoaXZlcy9oZXhvLXM=&#34;&gt;https://blog.moehz.com/archives/hexo-s&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;我们先按照该教程 —— 注册 GitHub【第 1 篇】, 安装 git【第 2 篇】，绑定 GitHub 并提交文件【第 3 篇】&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;购买域名【第 4 篇】和解析域名【第 6 篇】—— 可以暂时不操作，等到博客部署成功后再操作&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;安装 node.js 和 Hexo【第 5 篇】，至于第 7 篇、第 8 篇略过&lt;br /&gt;
+ 1. 安装 nodejs 步骤：在系统变量中新建一个变量名为 “NODE_PATH”【路径应该修改为 “D:\nodejs\node_modules”】&lt;br /&gt;
+2. 安装 Hexo 步骤：文件底部内容应改为：【注意空格】&lt;/p&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;行高亮&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zeXZ5NTIwLmdpdGh1Yi5pbw==&#34;&gt;参考链接&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;deploy&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  type&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  repo&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; git&lt;span class=&#34;token annotation punctuation&#34;&gt;@github.com&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token constant&#34;&gt;SYVY520&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token constant&#34;&gt;SYVY520&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;github&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;io&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;git #你的仓库地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  branch&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;部署博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署博客&#34;&gt;#&lt;/a&gt; 部署博客&lt;/h1&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;shoka 主题基础部署建议看教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLm1vZWh6LmNvbS9hcmNoaXZlcy9oZXhvLXNob2thLWJ1aWxkLmh0bWw=&#34;&gt;https://blog.moehz.com/archives/hexo-shoka-build.html&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;shoka 主题后续详情搭建建议看教程：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUvY29tcHV0ZXItc2NpZW5jZS9ub3RlL3RoZW1lLXNob2thLWRvYy8=&#34;&gt;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&lt;/span&gt;&lt;br /&gt;
+shoka 主题功能介绍补充点：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9TdXBwbGVtZW50LWZvci1zaG9rYS10aGVtZS8=&#34;&gt;https://www.reversesacle.com/Supplement-for-shoka-theme/&lt;/span&gt;&lt;br /&gt;
+ 两者建议同时看❤️&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;Algolia 实现搜索功能补充点：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ1MTczNDA0L2FydGljbGUvZGV0YWlscy8xMjI4NjEzMjE=&#34;&gt;https://blog.csdn.net/qq_45173404/article/details/122861321&lt;/span&gt;&lt;br /&gt;
+ 评论区基本功能：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0NvbW1lbnQvJUUzJTgwJTkwJUU4JUJGJTk5JUU5JTgzJUE4JUU1JTg4JTg2JUU3JUFDJTk0JUU4JTgwJTg1JUU4JUJGJTk4JUU1JTlDJUE4JUU1JThBJUFBJUU1JThBJTlC&#34;&gt;https://www.reversesacle.com/Computer-science/Shoka-Theme/Comment/【这部分笔者还在努力&lt;/span&gt; 😭 】&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;shoka 额外添加配置：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0Fub3RoZXIv&#34;&gt;https://www.reversesacle.com/Computer-science/Shoka-Theme/Another/&lt;/span&gt;&lt;br /&gt;
+ 主要图片及图床配置： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucmV2ZXJzZXNhY2xlLmNvbS9Db21wdXRlci1zY2llbmNlL1Nob2thLVRoZW1lL0ltYWdlLw==&#34;&gt;https://www.reversesacle.com/Computer-science/Shoka-Theme/Image/&lt;/span&gt;&lt;br /&gt;
+shoka 额外添加配置：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGF2ZW5kZXJkaC5jbi9jYXRlZ29yaWVzL1NIT0tBLw==&#34;&gt;https://www.lavenderdh.cn/categories/SHOKA/&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+        <updated>2022-10-23T11:28:06.520Z</updated>
     </entry>
     <entry>
         <id>http://example.com/hello-world/</id>
