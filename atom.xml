@@ -1,37 +1,37 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id></id>
     <title></title>
     <subtitle></subtitle>
     <icon>http://example.com/images/favicon.ico</icon>
-    <link href="http://example.com" />
+    <link href="" />
     <author>
       <name>SYVY</name>
     </author>
     <updated>2022-10-23T17:03:49.350Z</updated>
     <category term="shoka" />
     <entry>
-        <id>http://example.com/css/</id>
-        <title>CSS学习笔记</title>
-        <link rel="alternate" href="http://example.com/css/"/>
+        <id></id>
+        <title></title>
+        <link rel="alternate" href""/>
         <content type="html"></content>
         <category term="前端" scheme="http://example.com/categories/front/" />
         <category term="CSS" scheme="http://example.com/tags/css/" />
         <updated>2022-10-23T17:03:49.350Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/html/</id>
-        <title>HTML学习笔记</title>
-        <link rel="alternate" href="http://example.com/html/"/>
+        <id></id>
+        <title></title>
+        <link rel="alternate" href""/>
         <content type="html"></content>
         <category term="前端" scheme="http://example.com/categories/front/" />
         <category term="HTML" scheme="http://example.com/tags/HTML/" />
         <updated>2022-10-23T11:39:48.755Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/blog/</id>
-        <title>Hexo博客搭建：配置【主题：shoka】</title>
-        <link rel="alternate" href="http://example.com/blog/"/>
+        <id></id>
+        <title></title>
+        <link rel="alternate" href""/>
         <content type="html">&lt;h1 id=&#34;事件起因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#事件起因&#34;&gt;#&lt;/a&gt; 事件起因&lt;/h1&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;作为一个从未搭建过博客的小白，第一次搭建博客部署主题就对shoka主题惊为天人，开始了搭建博客的过程。然而搭建博客的过程繁琐而复杂，shoka主题也有很多整不清楚的地方，在查找了大量教程之后，基本实现了shoka主题的一些功能。&lt;/summary&gt;&lt;div&gt;
 &lt;/div&gt;&lt;/details&gt;

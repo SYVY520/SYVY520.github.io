@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": null,
+    "title": "syvy",
     "subtitle": null,
     "icon": "http://example.com/images/favicon.ico",
-    "description": "shoka",
+    "description": "技术生活分享",
     "home_page_url": "http://example.com",
     "items": [
         {
