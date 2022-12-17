@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JavaScript</title>
+    <url>/JavaScript/</url>
+    <content><![CDATA[<h1 id="jquery"><a class="anchor" href="#jquery">#</a> jQuery</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9qcXVlcnkvanF1ZXJ5LXR1dG9yaWFsLmh0bWw=">https://www.runoob.com/jquery/jquery-tutorial.html</span></p>
+</div>
+<h1 id="vuejs"><a class="anchor" href="#vuejs">#</a> Vue.js</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS92dWUyL3Z1ZS10dXRvcmlhbC5odG1s">https://www.runoob.com/vue2/vue-tutorial.html</span></p>
+</div>
+<h1 id="vue3"><a class="anchor" href="#vue3">#</a> Vue3</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS92dWUzL3Z1ZTMtdHV0b3JpYWwuaHRtbA==">https://www.runoob.com/vue3/vue3-tutorial.html</span></p>
+</div>
+<h1 id="react"><a class="anchor" href="#react">#</a> React</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9yZWFjdC9yZWFjdC10dXRvcmlhbC5odG1s">https://www.runoob.com/react/react-tutorial.html</span></p>
+</div>
+<h1 id="nodejs"><a class="anchor" href="#nodejs">#</a> Node.js</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9ub2RlanMvbm9kZWpzLXR1dG9yaWFsLmh0bWw=">https://www.runoob.com/nodejs/nodejs-tutorial.html</span></p>
+</div>
+]]></content>
+      <categories>
+        <category>前端学习链接</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端基础学习</title>
+    <url>/basic/</url>
+    <content><![CDATA[<h1 id="html"><a class="anchor" href="#html">#</a> HTML</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9odG1sL2h0bWwtdHV0b3JpYWwuaHRtbA==">https://www.runoob.com/html/html-tutorial.html</span></p>
+</div>
+<h1 id="html5"><a class="anchor" href="#html5">#</a> HTML5</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9odG1sL2h0bWw1LWludHJvLmh0bWw=">https://www.runoob.com/html/html5-intro.html</span></p>
+</div>
+<h1 id="css"><a class="anchor" href="#css">#</a> CSS</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9jc3MvY3NzLXR1dG9yaWFsLmh0bWw=">https://www.runoob.com/css/css-tutorial.html</span></p>
+</div>
+<h1 id="css3"><a class="anchor" href="#css3">#</a> CSS3</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9jc3MzL2NzczMtdHV0b3JpYWwuaHRtbA==">https://www.runoob.com/css3/css3-tutorial.html</span></p>
+</div>
+<h1 id="javascript"><a class="anchor" href="#javascript">#</a> JavaScript</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9qcy9qcy10dXRvcmlhbC5odG1s">https://www.runoob.com/js/js-tutorial.html</span></p>
+</div>
+<h1 id="html-dom"><a class="anchor" href="#html-dom">#</a> HTML DOM</h1>
+<div class="note default">
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cucnVub29iLmNvbS9odG1sZG9tL2h0bWxkb20tdHV0b3JpYWwuaHRtbA==">https://www.runoob.com/htmldom/htmldom-tutorial.html</span></p>
+</div>
+]]></content>
+      <categories>
+        <category>前端学习链接</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo博客搭建：配置【主题：shoka】</title>
     <url>/blog/</url>
     <content><![CDATA[<h1 id="事件起因"><a class="anchor" href="#事件起因">#</a> 事件起因</h1>
@@ -21,7 +87,7 @@
  1. 安装 nodejs 步骤：在系统变量中新建一个变量名为 “NODE_PATH”【路径应该修改为 “D:\nodejs\node_modules”】<br />
 2. 安装 Hexo 步骤：文件底部内容应改为：【注意空格】</p>
 </div>
-<figure class="highlight java"><figcaption data-lang="java"><span>行高亮</span><span class="exturl" data-url="aHR0cHM6Ly9zeXZ5NTIwLmdpdGh1Yi5pbw==">参考链接</span></figcaption><table><tr class="marked"><td data-num="1"></td><td><pre>deploy<span class="token operator">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  type<span class="token operator">:</span> git</pre></td></tr><tr><td data-num="3"></td><td><pre>  repo<span class="token operator">:</span> git<span class="token annotation punctuation">@github.com</span><span class="token operator">:</span><span class="token constant">SYVY520</span><span class="token operator">/</span><span class="token constant">SYVY520</span><span class="token punctuation">.</span>github<span class="token punctuation">.</span>io<span class="token punctuation">.</span>git #你的仓库地址</pre></td></tr><tr><td data-num="4"></td><td><pre>  branch<span class="token operator">:</span> main</pre></td></tr></table></figure><h1 id="部署博客"><a class="anchor" href="#部署博客">#</a> 部署博客</h1>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>deploy<span class="token operator">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  type<span class="token operator">:</span> git</pre></td></tr><tr><td data-num="3"></td><td><pre>  repo<span class="token operator">:</span> git<span class="token annotation punctuation">@github.com</span><span class="token operator">:</span><span class="token constant">SYVY520</span><span class="token operator">/</span><span class="token constant">SYVY520</span><span class="token punctuation">.</span>github<span class="token punctuation">.</span>io<span class="token punctuation">.</span>git #你的仓库地址</pre></td></tr><tr><td data-num="4"></td><td><pre>  branch<span class="token operator">:</span> main</pre></td></tr></table></figure><h1 id="部署博客"><a class="anchor" href="#部署博客">#</a> 部署博客</h1>
 <div class="note default">
 <p>shoka 主题基础部署建议看教程：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLm1vZWh6LmNvbS9hcmNoaXZlcy9oZXhvLXNob2thLWJ1aWxkLmh0bWw=">https://blog.moehz.com/archives/hexo-shoka-build.html</span></p>
 </div>
@@ -48,27 +114,5 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
 ]]></content>
-  </entry>
-  <entry>
-    <title>CSS学习笔记</title>
-    <url>/css/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML学习笔记</title>
-    <url>/html/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>HTML</tag>
-      </tags>
   </entry>
 </search>
