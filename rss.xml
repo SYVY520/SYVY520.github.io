@@ -10,14 +10,181 @@
         </author>
         <description>技术学习分享</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 27 Dec 2022 16:26:38 +0800</pubDate>
-        <lastBuildDate>Tue, 27 Dec 2022 16:26:38 +0800</lastBuildDate>
+        <pubDate>Wed, 28 Dec 2022 18:44:14 +0800</pubDate>
+        <lastBuildDate>Wed, 28 Dec 2022 18:44:14 +0800</lastBuildDate>
         <category term="shoka" />
+        <item>
+            <guid isPermalink="true">http://example.com/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
+            <title></title>
+            <link></link>
+            <category term="vue" scheme="http://example.com/categories/vue/" />
+            <category term="vue" scheme="http://example.com/tags/vue/" />
+            <pubDate>Wed, 28 Dec 2022 18:44:14 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;beforecreate&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#beforecreate&#34;&gt;#&lt;/a&gt; beforeCreate&lt;/h1&gt;
+&lt;p&gt;在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。&lt;/p&gt;
+&lt;h1 id=&#34;created&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#created&#34;&gt;#&lt;/a&gt; created&lt;/h1&gt;
+&lt;p&gt;组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。&lt;/p&gt;
+&lt;h1 id=&#34;beforemount&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#beforemount&#34;&gt;#&lt;/a&gt; beforeMount&lt;/h1&gt;
+&lt;p&gt;在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。&lt;/p&gt;
+&lt;h1 id=&#34;mounted&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mounted&#34;&gt;#&lt;/a&gt; mounted&lt;/h1&gt;
+&lt;p&gt;组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素&lt;/p&gt;
+&lt;h1 id=&#34;beforeupdated&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#beforeupdated&#34;&gt;#&lt;/a&gt; beforeUpdated&lt;/h1&gt;
+&lt;p&gt;在组件被重新渲染之前，执行 0 或 多次&lt;/p&gt;
+&lt;h1 id=&#34;updated&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#updated&#34;&gt;#&lt;/a&gt; updated&lt;/h1&gt;
+&lt;p&gt;组件在页面中被重新渲染完毕后，执行 0 或 多次&lt;/p&gt;
+&lt;h1 id=&#34;beforeunmount&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#beforeunmount&#34;&gt;#&lt;/a&gt; beforeUnmount&lt;/h1&gt;
+&lt;p&gt;在组件被销毁之前，执行唯一 1 次&lt;/p&gt;
+&lt;h1 id=&#34;unmounted&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unmounted&#34;&gt;#&lt;/a&gt; unmounted&lt;/h1&gt;
+&lt;p&gt;组件被销毁后（页面和内存），执行唯一 1 次&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</guid>
+            <title></title>
+            <link></link>
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
+            <pubDate>Wed, 28 Dec 2022 17:30:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;asyncawait&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#asyncawait&#34;&gt;#&lt;/a&gt; async/await&lt;/h1&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;A&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;async function &lt;span class=&#34;token function&#34;&gt;getAllFile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;B&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; r1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; await thenFs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;readFile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&#39;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;/files&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1.&lt;/span&gt;txt&lt;span class=&#34;token char&#34;&gt;&#39;,&#39;&lt;/span&gt;utf8&#39;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; r2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; await thenFs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;readFile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&#39;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;/files&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2.&lt;/span&gt;txt&lt;span class=&#34;token char&#34;&gt;&#39;,&#39;&lt;/span&gt;utf8&#39;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; r3 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; await thenFs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;readFile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&#39;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;/files&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3.&lt;/span&gt;txt&lt;span class=&#34;token char&#34;&gt;&#39;,&#39;&lt;/span&gt;utf8&#39;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;r1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;r2&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;r3&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;D&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;getAllFile&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;C&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;最终输出的顺序：A B C 111 222 333 D&lt;/p&gt;
+&lt;h2 id=&#34;使用注意事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用注意事项&#34;&gt;#&lt;/a&gt; 使用注意事项&lt;/h2&gt;
+&lt;p&gt;①如果在 function 中使用了 await，则 function 必须被 async 修饰。&lt;br /&gt;
+②在 async 方法中，第一个 await 之前的代码会同步执行，await 之后的代码会异步执行。&lt;/p&gt;
+&lt;h1 id=&#34;宏任务和微任务异步任务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#宏任务和微任务异步任务&#34;&gt;#&lt;/a&gt; 宏任务和微任务【异步任务】&lt;/h1&gt;
+&lt;h2 id=&#34;宏任务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#宏任务&#34;&gt;#&lt;/a&gt; 宏任务&lt;/h2&gt;
+&lt;p&gt;异步 Ajax 请求&lt;br /&gt;
+ setTimeout、setInterval&lt;br /&gt;
+ 文件操作&lt;br /&gt;
+其他宏任务&lt;/p&gt;
+&lt;h2 id=&#34;微任务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#微任务&#34;&gt;#&lt;/a&gt; 微任务&lt;/h2&gt;
+&lt;p&gt;Promise.then、.catch 和.finally&lt;br /&gt;
+process.nextTick&lt;br /&gt;
+ 其他微任务&lt;/p&gt;
+&lt;h2 id=&#34;执行顺序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#执行顺序&#34;&gt;#&lt;/a&gt; 执行顺序&lt;/h2&gt;
+&lt;p&gt;每一个宏任务执行完之后，都会检查是否存在待执行的微任务，如果有，则执行完所有微任务之后，再继续执行下一个宏任务。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</guid>
+            <title></title>
+            <link></link>
+            <pubDate>Wed, 28 Dec 2022 16:54:11 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;session认证机制服务端渲染&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#session认证机制服务端渲染&#34;&gt;#&lt;/a&gt; Session 认证机制【服务端渲染】&lt;/h1&gt;
+&lt;p&gt;①客户端登录：提交账号与密码。&lt;br /&gt;
+②服务器验证账号和密码，将生成的 Cookies 响应给客户端。&lt;br /&gt;
+③浏览器自动把 Cookies 存储在当前域名下。&lt;br /&gt;
+④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。&lt;br /&gt;
+⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。&lt;br /&gt;
+⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。&lt;/p&gt;
+&lt;h1 id=&#34;jwt认证机制前后端分离&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jwt认证机制前后端分离&#34;&gt;#&lt;/a&gt; JWT 认证机制【前后端分离】&lt;/h1&gt;
+&lt;p&gt;①客户端登录：提交账号与密码。&lt;br /&gt;
+②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。&lt;br /&gt;
+③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。&lt;br /&gt;
+④服务器把 Token 字符串还原成用户的信息对象。&lt;br /&gt;
+⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</guid>
+            <title></title>
+            <link></link>
+            <pubDate>Wed, 28 Dec 2022 15:26:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;http请求消息的组成部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#http请求消息的组成部分&#34;&gt;#&lt;/a&gt; HTTP 请求消息的组成部分&lt;/h1&gt;
+&lt;h2 id=&#34;请求行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#请求行&#34;&gt;#&lt;/a&gt; 请求行&lt;/h2&gt;
+&lt;p&gt;请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。&lt;/p&gt;
+&lt;h2 id=&#34;请求头部&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#请求头部&#34;&gt;#&lt;/a&gt; 请求头部&lt;/h2&gt;
+&lt;p&gt;①Host 要请求的服务器域名&lt;br /&gt;
+②Connection 客户端与服务器的连接方式（close 或 keepalive）&lt;br /&gt;
+③Content-Length 用来描述请求体的大小&lt;br /&gt;
+④Accept 客户端可识别的响应内容类型列表&lt;br /&gt;
+⑤User-Agent 产生请求的浏览器类型&lt;br /&gt;
+⑥Content-Type 客户端告诉服务器实际发送的数据类型&lt;br /&gt;
+⑦Accept-Encoding 客户端可接受的内容压缩编码形式&lt;br /&gt;
+⑧Accept-Language 用户期望获得的自然语言的优先顺序&lt;/p&gt;
+&lt;h2 id=&#34;请求体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#请求体&#34;&gt;#&lt;/a&gt; 请求体&lt;/h2&gt;
+&lt;p&gt;请求体存放的，是要通过 POST 方式提交到服务器的数据。&lt;/p&gt;
+&lt;h1 id=&#34;http响应消息的组成部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#http响应消息的组成部分&#34;&gt;#&lt;/a&gt; HTTP 响应消息的组成部分&lt;/h1&gt;
+&lt;h2 id=&#34;状态行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#状态行&#34;&gt;#&lt;/a&gt; 状态行&lt;/h2&gt;
+&lt;p&gt;状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。&lt;/p&gt;
+&lt;h2 id=&#34;响应体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#响应体&#34;&gt;#&lt;/a&gt; 响应体&lt;/h2&gt;
+&lt;p&gt;响应体存放的，是服务器响应给客户端的资源内容。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
+            <title></title>
+            <link></link>
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
+            <pubDate>Wed, 28 Dec 2022 00:45:11 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;javascript的成员查找机制规则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#javascript的成员查找机制规则&#34;&gt;#&lt;/a&gt; JavaScript 的成员查找机制（规则）&lt;/h1&gt;
+&lt;p&gt;①当访问一个对象的属性（包括方法）时，首先查找这个对象自身有没有该属性。&lt;br /&gt;
+②如果没有就查找它的原型（也就是_proto_指向的 prototype 原型对象）。&lt;br /&gt;
+③如果还没有就查找原型对象的原型（Object 的原型对象）。&lt;br /&gt;
+④以此类推一直找到 Object 为止（null）。&lt;br /&gt;
+⑤_proto_对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。&lt;/p&gt;
+&lt;h1 id=&#34;es5中的新增方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#es5中的新增方法&#34;&gt;#&lt;/a&gt; ES5 中的新增方法&lt;/h1&gt;
+&lt;h2 id=&#34;字符串方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#字符串方法&#34;&gt;#&lt;/a&gt; 字符串方法&lt;/h2&gt;
+&lt;p&gt;str.trim () 从一个字符串的两端删除空白字符，不影响原字符串本身。&lt;/p&gt;
+&lt;h2 id=&#34;对象方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对象方法&#34;&gt;#&lt;/a&gt; 对象方法&lt;/h2&gt;
+&lt;p&gt;Object.keys (obj) 用于获取对象自身所有的属性，返回一个由属性名组成的数组。&lt;/p&gt;
+&lt;h1 id=&#34;es6的新增语法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#es6的新增语法&#34;&gt;#&lt;/a&gt; ES6 的新增语法&lt;/h1&gt;
+&lt;h2 id=&#34;let&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#let&#34;&gt;#&lt;/a&gt; let&lt;/h2&gt;
+&lt;p&gt;作用域为该语句所在的代码块内，不存在变量提升。&lt;/p&gt;
+&lt;h2 id=&#34;const&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#const&#34;&gt;#&lt;/a&gt; const&lt;/h2&gt;
+&lt;p&gt;声明的是常量，在后面出现的代码中不能再修改该常量的值。&lt;/p&gt;
+&lt;h2 id=&#34;var&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#var&#34;&gt;#&lt;/a&gt; var&lt;/h2&gt;
+&lt;p&gt;作用域为该语句所在的函数内，且存在变量提升现象。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/JavaScript%E4%BA%8B%E4%BB%B6/</guid>
+            <title></title>
+            <link></link>
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
+            <pubDate>Tue, 27 Dec 2022 20:12:18 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;事件高级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#事件高级&#34;&gt;#&lt;/a&gt; 事件高级&lt;/h1&gt;
+&lt;h2 id=&#34;禁止鼠标右键菜单&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁止鼠标右键菜单&#34;&gt;#&lt;/a&gt; 禁止鼠标右键菜单&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;document&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&#39;contextmenu&#39;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;e&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;preventDefault&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;禁止鼠标选中selectstart-开始选中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#禁止鼠标选中selectstart-开始选中&#34;&gt;#&lt;/a&gt; 禁止鼠标选中（selectstart 开始选中)&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;document&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&#39;selectstart&#39;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;e&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;preventDefault&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;阻止事件冒泡&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#阻止事件冒泡&#34;&gt;#&lt;/a&gt; 阻止事件冒泡&lt;/h1&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;e &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;stopPropagation&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;e&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;stopPropagation&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;window&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;event&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;cancelBubble &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;js执行队列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#js执行队列&#34;&gt;#&lt;/a&gt; JS 执行队列&lt;/h1&gt;
+&lt;h2 id=&#34;同步任务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#同步任务&#34;&gt;#&lt;/a&gt; 同步任务&lt;/h2&gt;
+&lt;p&gt;同步任务都在主线程上执行，形成一个执行栈。&lt;/p&gt;
+&lt;h2 id=&#34;异步任务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#异步任务&#34;&gt;#&lt;/a&gt; 异步任务&lt;/h2&gt;
+&lt;p&gt;JS 的异步是通过回调函数实现的。&lt;br /&gt;
+一般而言，异步任务有以下三种类型：&lt;br /&gt;
+1. 普通事件，如 click、resize 等&lt;br /&gt;
+ 2. 资源加载，如 load、error 等&lt;br /&gt;
+ 3. 定时器，包括 setInterval、setTimeout 等&lt;br /&gt;
+异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</guid>
+            <title></title>
+            <link></link>
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
+            <pubDate>Tue, 27 Dec 2022 19:22:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;短路运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#短路运算&#34;&gt;#&lt;/a&gt; 短路运算&lt;/h1&gt;
+&lt;p&gt;① 语法：表达式 1 &amp;amp;&amp;amp; 表达式 2&lt;br /&gt;
+ 如果表达式 1 的值为真，返回表达式 2&lt;br /&gt;
+ 如果表达式 1 的值为假，返回表达式 1&lt;br /&gt;
+② 语法：表达式 1 || 表达式 2&lt;br /&gt;
+ 如果表达式 1 的值为真，返回表达式 1&lt;br /&gt;
+ 如果表达式 1 的值为假，返回表达式 2&lt;/p&gt;
+&lt;h1 id=&#34;三元表达式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三元表达式&#34;&gt;#&lt;/a&gt; 三元表达式&lt;/h1&gt;
+&lt;p&gt;条件表达式 ？ 表达式 1 ： 表达式 2&lt;br /&gt;
+ 条件表达式结果为真，返回表达式 1&lt;br /&gt;
+ 条件表达式结果为假，返回表达式 2&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/CSS%E6%8F%90%E5%8D%87/</guid>
             <title></title>
             <link></link>
-            <category term="前端学习" scheme="http://example.com/categories/front/" />
+            <category term="css" scheme="http://example.com/categories/CSS/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 16:26:38 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;vertical-align属性应用只针对行内元素或者行内块元素垂直对齐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐&#34;&gt;#&lt;/a&gt; vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐&lt;/h1&gt;
@@ -32,13 +199,14 @@
 2. 超出的部分隐藏 overflow:hidden;&lt;br /&gt;
 3. 文本用省略号替代超出的部分 text-overflow:ellipsis;&lt;/p&gt;
 &lt;h2 id=&#34;多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端&#34;&gt;#&lt;/a&gt; 多行文本溢出显示省略号【兼容性问题，适用于 webKit 浏览器或移动端】&lt;/h2&gt;
-&lt;p&gt;overflow:hidden;&lt;br /&gt;
-text-overflow:ellipsis;&lt;br /&gt;
- 弹性伸缩盒子模型显示 display:-webkit-box;&lt;br /&gt;
- 限制在一个块元素显示的文本的行数 - webkit-line-clamp:2;&lt;br /&gt;
- 设置或检索伸缩盒对象的子元素的排列方式 - webkit-box-orient:vertical;&lt;/p&gt;
+&lt;p&gt;1.overflow:hidden;&lt;br /&gt;
+2.text-overflow:ellipsis;&lt;br /&gt;
+3. 弹性伸缩盒子模型显示 display:-webkit-box;&lt;br /&gt;
+4. 限制在一个块元素显示的文本的行数 - webkit-line-clamp:2;&lt;br /&gt;
+5. 设置或检索伸缩盒对象的子元素的排列方式 - webkit-box-orient:vertical;&lt;/p&gt;
 &lt;h1 id=&#34;css三角&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#css三角&#34;&gt;#&lt;/a&gt; CSS 三角&lt;/h1&gt;
-&lt;p&gt;div{&lt;br /&gt;
+&lt;p&gt;div&lt;br /&gt;
+{&lt;br /&gt;
 width:0;&lt;br /&gt;
 height:0;&lt;br /&gt;
 line-height:0;&lt;br /&gt;
@@ -58,42 +226,49 @@ border-width:22px 8px 0 0;&lt;/p&gt;
             <guid isPermalink="true">http://example.com/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</guid>
             <title></title>
             <link></link>
-            <category term="前端学习" scheme="http://example.com/categories/front/" />
+            <category term="css" scheme="http://example.com/categories/CSS/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 16:18:21 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;父级添加双伪元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#父级添加双伪元素&#34;&gt;#&lt;/a&gt; 父级添加双伪元素&lt;/h1&gt;
-&lt;p&gt;.clearfix:before,.clearfix:after{&lt;br /&gt;
+&lt;p&gt;.clearfix:before,.clearfix:after&lt;br /&gt;
+{&lt;br /&gt;
 content:&amp;quot;&amp;quot;;&lt;br /&gt;
 display:table;&lt;br /&gt;
 }&lt;br /&gt;
-.clearfix:after{&lt;br /&gt;
+.clearfix:after&lt;br /&gt;
+{&lt;br /&gt;
 clear:both;&lt;br /&gt;
 }&lt;br /&gt;
-.clearfix{&lt;br /&gt;
+.clearfix&lt;br /&gt;
+{&lt;br /&gt;
 *zoom:1;&lt;br /&gt;
 }&lt;/p&gt;
 &lt;h1 id=&#34;父级添加overflow属性&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#父级添加overflow属性&#34;&gt;#&lt;/a&gt; 父级添加 overflow 属性&lt;/h1&gt;
 &lt;p&gt;overflow: hidden;【无法显示溢出盒子部分】&lt;/p&gt;
 &lt;h1 id=&#34;父级添加after伪元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#父级添加after伪元素&#34;&gt;#&lt;/a&gt; 父级添加 after 伪元素&lt;/h1&gt;
-&lt;p&gt;.clearfix:after{&lt;br /&gt;
+&lt;p&gt;.clearfix:after&lt;br /&gt;
+{&lt;br /&gt;
 content:&amp;quot;&amp;quot;;&lt;br /&gt;
 display:block;&lt;br /&gt;
 height:0;&lt;br /&gt;
 clear:both;&lt;br /&gt;
 visibility:hidden;&lt;br /&gt;
 }&lt;br /&gt;
-.clearfix{&lt;br /&gt;
+.clearfix&lt;br /&gt;
+{&lt;br /&gt;
 *zoom:1;&lt;br /&gt;
 }&lt;/p&gt;
 &lt;h1 id=&#34;额外标签法隔墙法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#额外标签法隔墙法&#34;&gt;#&lt;/a&gt; 额外标签法【隔墙法】&lt;/h1&gt;
-&lt;p&gt;在浮动元素末尾添加一个空的标签。例如 &lt;div style=&#34;clear:both&#34;&gt;&lt;/div&gt; ，或者其他标签（如&lt;br/&gt;等）【必须为块级元素】。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在浮动元素末尾添加一个空的标签。例如 div style=&amp;quot;clear:both&amp;quot;，或者其他标签（如 &amp;lt;br/&amp;gt; 等）【必须为块级元素】。&lt;/p&gt;
+&lt;/blockquote&gt;
  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/CSS%E5%AE%9A%E4%BD%8D%E5%8F%8A%E6%B5%AE%E5%8A%A8/</guid>
             <title></title>
             <link></link>
-            <category term="前端学习" scheme="http://example.com/categories/front/" />
+            <category term="css" scheme="http://example.com/categories/CSS/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:59:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;定位叠放次序选择器-z-index-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定位叠放次序选择器-z-index-1&#34;&gt;#&lt;/a&gt; 定位叠放次序【选择器 {z-index: 1;}】&lt;/h1&gt;
@@ -136,7 +311,7 @@ visibility:hidden;&lt;br /&gt;
 2. 占有原先的位置。&lt;br /&gt;
 3. 必须添加 top、left、right、bottom 其中一个才有效。&lt;/p&gt;
 &lt;h1 id=&#34;静态定位标准流&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#静态定位标准流&#34;&gt;#&lt;/a&gt; 静态定位【标准流】&lt;/h1&gt;
-&lt;p position:=&#34;&#34; static;=&#34;&#34;&gt;选择器&lt;/p&gt;
+&lt;p&gt;选择器 [position：static;]&lt;/p&gt;
 &lt;h1 id=&#34;浮动选择器-float属性值-影响后面的标准流&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#浮动选择器-float属性值-影响后面的标准流&#34;&gt;#&lt;/a&gt; 浮动【选择器 {float: 属性值；}】【影响后面的标准流】&lt;/h1&gt;
 &lt;p&gt;浮动特性【左右对齐以父盒子为准】：&lt;br /&gt;
 ①浮动元素会脱离标准流（脱标）&lt;br /&gt;
@@ -148,18 +323,22 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</guid>
             <title></title>
             <link></link>
-            <category term="前端学习" scheme="http://example.com/categories/front/" />
+            <category term="css" scheme="http://example.com/categories/CSS/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:56:07 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;行内块元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行内块元素&#34;&gt;#&lt;/a&gt; 行内块元素&lt;/h1&gt;
-&lt;p&gt;1.{&lt;img /&gt;   &lt;input  /&gt;   &lt;td&gt;}&lt;br /&gt;
+&lt;p&gt;1.{img   input    td}&lt;br /&gt;
  2. 水平居中：父元素添加 text-align:center;&lt;/p&gt;
-&lt;h1 id=&#34;行内元素内联元素高-宽直接设置是无效的只能容纳文本或其他行内元素水平居中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行内元素内联元素高-宽直接设置是无效的只能容纳文本或其他行内元素水平居中&#34;&gt;#&lt;/a&gt; 行内元素【内联元素】【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】水平居中&lt;/h1&gt;
-&lt;p&gt;1.{&lt;a&gt;  &lt;strong&gt;  &lt;b&gt;   &lt;em&gt;   &lt;i&gt;   &lt;del&gt;   &lt;s&gt;    &lt;ins&gt;   &lt;u&gt;   &lt;span&gt;}&lt;br /&gt;
- 2. 特殊情况链接&lt;a&gt;可以放块级元素，不可以再放链接&lt;br /&gt;
- 3. 水平居中：父元素添加 text-align:center;&lt;/p&gt;
+&lt;h1 id=&#34;行内元素内联元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行内元素内联元素&#34;&gt;#&lt;/a&gt; 行内元素【内联元素】&lt;/h1&gt;
+&lt;p&gt;【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】&lt;br /&gt;
+1.{a  strong  b   em   i   del   s    ins   u   span}&lt;br /&gt;
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接&lt;br /&gt;
+ 3. 水平居中：&lt;br /&gt;
+父元素添加 text-align:center;&lt;/p&gt;
 &lt;h1 id=&#34;块元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#块元素&#34;&gt;#&lt;/a&gt; 块元素&lt;/h1&gt;
-&lt;p&gt;{&lt;h1&gt;~&lt;h6&gt;    &lt;p&gt;    &lt;div&gt;      &lt;ul&gt;  &lt;ol&gt;    &lt;li&gt;}&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;h1~h6   p   div   ul  ol   li&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id=&#34;元素显示模式转换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#元素显示模式转换&#34;&gt;#&lt;/a&gt; 元素显示模式转换&lt;/h1&gt;
 &lt;p&gt;1. 转换为块元素：display:block;&lt;br /&gt;
 2. 转换为行内元素：display:inline;&lt;br /&gt;
@@ -170,7 +349,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</guid>
             <title></title>
             <link></link>
-            <category term="前端学习" scheme="http://example.com/categories/front/" />
+            <category term="css" scheme="http://example.com/categories/CSS/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:52:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;外边距margin&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外边距margin&#34;&gt;#&lt;/a&gt; 外边距（margin）&lt;/h1&gt;
@@ -201,7 +380,7 @@ box-sizing:border-box 盒子大小为 width&lt;/p&gt;
             <guid isPermalink="true">http://example.com/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</guid>
             <title></title>
             <link></link>
-            <category term="前端学习" scheme="http://example.com/categories/front/" />
+            <category term="css" scheme="http://example.com/categories/CSS/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:34:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;后代选择器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后代选择器&#34;&gt;#&lt;/a&gt; 后代选择器&lt;/h1&gt;
@@ -216,7 +395,8 @@ box-sizing:border-box 盒子大小为 width&lt;/p&gt;
  a {}&lt;br /&gt;
  a:hover【选择鼠标指针位于其上的链接】&lt;/p&gt;
 &lt;h2 id=&#34;focus伪类选择器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#focus伪类选择器&#34;&gt;#&lt;/a&gt; :focus 伪类选择器&lt;/h2&gt;
-&lt;p&gt;input:focus{&lt;br /&gt;
+&lt;p&gt;input:focus&lt;br /&gt;
+{&lt;br /&gt;
 background-color:yellow;&lt;br /&gt;
 }&lt;/p&gt;
 &lt;h1 id=&#34;优先级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优先级&#34;&gt;#&lt;/a&gt; 优先级&lt;/h1&gt;
