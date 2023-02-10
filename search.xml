@@ -146,34 +146,6 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS盒子模型</title>
     <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
@@ -198,6 +170,34 @@ visibility:hidden;<br />
 <h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
 <p>box-sizing:content-box 盒子大小为 width+padding+border<br />
 box-sizing:border-box 盒子大小为 width</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>CSS学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
 ]]></content>
       <categories>
         <category>css学习笔记</category>
@@ -408,27 +408,6 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 ]]></content>
   </entry>
   <entry>
-    <title>前后端的身份认证</title>
-    <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
-    <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
-<p>①客户端登录：提交账号与密码。<br />
-②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />
-③浏览器自动把 Cookies 存储在当前域名下。<br />
-④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />
-⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />
-⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
-<h1 id="jwt认证机制前后端分离"><a class="anchor" href="#jwt认证机制前后端分离">#</a> JWT 认证机制【前后端分离】</h1>
-<p>①客户端登录：提交账号与密码。<br />
-②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />
-③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />
-④服务器把 Token 字符串还原成用户的信息对象。<br />
-⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
-]]></content>
-      <tags>
-        <tag>http</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vue组件的生命周期</title>
     <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
     <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
@@ -453,6 +432,27 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
       </categories>
       <tags>
         <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前后端的身份认证</title>
+    <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
+    <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
+<p>①客户端登录：提交账号与密码。<br />
+②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />
+③浏览器自动把 Cookies 存储在当前域名下。<br />
+④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />
+⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />
+⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
+<h1 id="jwt认证机制前后端分离"><a class="anchor" href="#jwt认证机制前后端分离">#</a> JWT 认证机制【前后端分离】</h1>
+<p>①客户端登录：提交账号与密码。<br />
+②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />
+③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />
+④服务器把 Token 字符串还原成用户的信息对象。<br />
+⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
+]]></content>
+      <tags>
+        <tag>http</tag>
       </tags>
   </entry>
   <entry>
