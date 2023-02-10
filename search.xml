@@ -54,7 +54,7 @@
         <category>css学习笔记</category>
       </categories>
       <tags>
-        <tag>CSS学习</tag>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -98,68 +98,7 @@ border-width:22px 8px 0 0;</p>
         <category>css学习笔记</category>
       </categories>
       <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS盒子模型</title>
-    <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
-<p>1. 盒子与盒子之间距离<br />
- 2. 水平居中：<br />
-①盒子必须指定了宽度 (width)。<br />
-②盒子左右的外边距都设置为 auto。<br />
-【margin:auto;/margin-left:auto;margin-right:auto;/margin: 0 auto;】</p>
-<h2 id="外边距合并"><a class="anchor" href="#外边距合并">#</a> 外边距合并</h2>
-<p>1. 只为一个盒子设置外边距<br />
- 2. 父元素塌陷<br />
-①可以为父元素定义上边框<br />
-②可以为父元素定义上内边距<br />
-③可以为父元素添加 overflow:hidden;</p>
-<h1 id="内边距padding"><a class="anchor" href="#内边距padding">#</a> 内边距（padding）</h1>
-<p>没有指定 width/height，padding 不会撑大盒子</p>
-<h1 id="边框border"><a class="anchor" href="#边框border">#</a> 边框（border）</h1>
-<p>1.border  :  border-width【宽度】 ||   border-style 【样式】   ||    border-color【颜色】（没有顺序）<br />
-2.border-top/bottom/left/right:【具有层叠性】<br />
-3.solid【实线边框】   dashed【虚线边框】   dotted【点线边框】<br />
-4.border-collapse:  collapse;【合并，表示相邻边框合并在一起】</p>
-<h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
-<p>box-sizing:content-box 盒子大小为 width+padding+border<br />
-box-sizing:border-box 盒子大小为 width</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -203,59 +142,35 @@ visibility:hidden;<br />
         <category>css学习笔记</category>
       </categories>
       <tags>
-        <tag>CSS学习</tag>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
-    <title>HTTP</title>
-    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
-<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
-<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
-<p>①Host 要请求的服务器域名<br />
-②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
-③Content-Length 用来描述请求体的大小<br />
-④Accept 客户端可识别的响应内容类型列表<br />
-⑤User-Agent 产生请求的浏览器类型<br />
-⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
-⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
-⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
-<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
-<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
-<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
-<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
-<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
-<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
-]]></content>
-      <tags>
-        <tag>http</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaScript事件</title>
-    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
-<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
-<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
-<p>同步任务都在主线程上执行，形成一个执行栈。</p>
-<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
-<p>JS 的异步是通过回调函数实现的。<br />
-一般而言，异步任务有以下三种类型：<br />
-1. 普通事件，如 click、resize 等<br />
- 2. 资源加载，如 load、error 等<br />
- 3. 定时器，包括 setInterval、setTimeout 等<br />
-异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
 ]]></content>
       <categories>
-        <category>JavaScript学习笔记</category>
+        <category>css学习笔记</category>
       </categories>
       <tags>
-        <tag>JavaScript</tag>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -284,7 +199,70 @@ background-color:yellow;<br />
         <category>css学习笔记</category>
       </categories>
       <tags>
-        <tag>CSS学习</tag>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS盒子模型</title>
+    <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
+<p>1. 盒子与盒子之间距离<br />
+ 2. 水平居中：<br />
+①盒子必须指定了宽度 (width)。<br />
+②盒子左右的外边距都设置为 auto。<br />
+【margin:auto;/margin-left:auto;margin-right:auto;/margin: 0 auto;】</p>
+<h2 id="外边距合并"><a class="anchor" href="#外边距合并">#</a> 外边距合并</h2>
+<p>1. 只为一个盒子设置外边距<br />
+ 2. 父元素塌陷<br />
+①可以为父元素定义上边框<br />
+②可以为父元素定义上内边距<br />
+③可以为父元素添加 overflow:hidden;</p>
+<h1 id="内边距padding"><a class="anchor" href="#内边距padding">#</a> 内边距（padding）</h1>
+<p>没有指定 width/height，padding 不会撑大盒子</p>
+<h1 id="边框border"><a class="anchor" href="#边框border">#</a> 边框（border）</h1>
+<p>1.border  :  border-width【宽度】 ||   border-style 【样式】   ||    border-color【颜色】（没有顺序）<br />
+2.border-top/bottom/left/right:【具有层叠性】<br />
+3.solid【实线边框】   dashed【虚线边框】   dotted【点线边框】<br />
+4.border-collapse:  collapse;【合并，表示相邻边框合并在一起】</p>
+<h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
+<p>box-sizing:content-box 盒子大小为 width+padding+border<br />
+box-sizing:border-box 盒子大小为 width</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTTP</title>
+    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
+    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
+<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
+<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
+<p>①Host 要请求的服务器域名<br />
+②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
+③Content-Length 用来描述请求体的大小<br />
+④Accept 客户端可识别的响应内容类型列表<br />
+⑤User-Agent 产生请求的浏览器类型<br />
+⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
+⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
+⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
+<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
+<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
+<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
+<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
+<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
+<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
+]]></content>
+      <categories>
+        <category>Http学习笔记</category>
+      </categories>
+      <tags>
+        <tag>http</tag>
       </tags>
   </entry>
   <entry>
@@ -310,26 +288,6 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
-    <title>MVVM</title>
-    <url>/MVVM/</url>
-    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
-<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
-①Model 表示当前页面渲染时所依赖的数据源。<br />
-②View 表示当前页面所渲染的 DOM 结构。<br />
-③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
-<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
-<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
-当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
-当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
-]]></content>
-      <categories>
-        <category>vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JavaScript面向对象</title>
     <url>/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
     <content><![CDATA[<h1 id="javascript的成员查找机制规则"><a class="anchor" href="#javascript的成员查找机制规则">#</a> JavaScript 的成员查找机制（规则）</h1>
@@ -350,6 +308,31 @@ background-color:yellow;<br />
 <p>声明的是常量，在后面出现的代码中不能再修改该常量的值。</p>
 <h2 id="var"><a class="anchor" href="#var">#</a> var</h2>
 <p>作用域为该语句所在的函数内，且存在变量提升现象。</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript事件</title>
+    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
+<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
+<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
+<p>同步任务都在主线程上执行，形成一个执行栈。</p>
+<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
+<p>JS 的异步是通过回调函数实现的。<br />
+一般而言，异步任务有以下三种类型：<br />
+1. 普通事件，如 click、resize 等<br />
+ 2. 资源加载，如 load、error 等<br />
+ 3. 定时器，包括 setInterval、setTimeout 等<br />
+异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
 ]]></content>
       <categories>
         <category>JavaScript学习笔记</category>
@@ -408,6 +391,26 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 ]]></content>
   </entry>
   <entry>
+    <title>MVVM</title>
+    <url>/MVVM/</url>
+    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
+<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
+①Model 表示当前页面渲染时所依赖的数据源。<br />
+②View 表示当前页面所渲染的 DOM 结构。<br />
+③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
+<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
+<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
+当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
+当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
+]]></content>
+      <categories>
+        <category>vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vue组件的生命周期</title>
     <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
     <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
@@ -432,6 +435,30 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
       </categories>
       <tags>
         <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前后端的身份认证</title>
+    <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
+    <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
+<p>①客户端登录：提交账号与密码。<br />
+②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />
+③浏览器自动把 Cookies 存储在当前域名下。<br />
+④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />
+⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />
+⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
+<h1 id="jwt认证机制前后端分离"><a class="anchor" href="#jwt认证机制前后端分离">#</a> JWT 认证机制【前后端分离】</h1>
+<p>①客户端登录：提交账号与密码。<br />
+②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />
+③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />
+④服务器把 Token 字符串还原成用户的信息对象。<br />
+⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
+]]></content>
+      <categories>
+        <category>Http学习笔记</category>
+      </categories>
+      <tags>
+        <tag>http</tag>
       </tags>
   </entry>
   <entry>
@@ -460,27 +487,6 @@ process.nextTick<br />
       </categories>
       <tags>
         <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前后端的身份认证</title>
-    <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
-    <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
-<p>①客户端登录：提交账号与密码。<br />
-②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />
-③浏览器自动把 Cookies 存储在当前域名下。<br />
-④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />
-⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />
-⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
-<h1 id="jwt认证机制前后端分离"><a class="anchor" href="#jwt认证机制前后端分离">#</a> JWT 认证机制【前后端分离】</h1>
-<p>①客户端登录：提交账号与密码。<br />
-②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />
-③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />
-④服务器把 Token 字符串还原成用户的信息对象。<br />
-⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
-]]></content>
-      <tags>
-        <tag>http</tag>
       </tags>
   </entry>
 </search>

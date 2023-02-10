@@ -97,6 +97,7 @@ process.nextTick&lt;br /&gt;
 ④服务器把 Token 字符串还原成用户的信息对象。&lt;br /&gt;
 ⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。&lt;/p&gt;
 </content>
+        <category term="Http学习笔记" scheme="http://example.com/categories/Http%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="http" scheme="http://example.com/tags/http/" />
         <updated>2022-12-28T08:54:11.821Z</updated>
     </entry>
@@ -124,6 +125,7 @@ process.nextTick&lt;br /&gt;
 &lt;h2 id=&#34;响应体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#响应体&#34;&gt;#&lt;/a&gt; 响应体&lt;/h2&gt;
 &lt;p&gt;响应体存放的，是服务器响应给客户端的资源内容。&lt;/p&gt;
 </content>
+        <category term="Http学习笔记" scheme="http://example.com/categories/Http%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="http" scheme="http://example.com/tags/http/" />
         <updated>2022-12-28T07:26:31.184Z</updated>
     </entry>
@@ -236,7 +238,7 @@ border-style:solid;&lt;br /&gt;
 border-width:22px 8px 0 0;&lt;/p&gt;
 </content>
         <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-        <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
+        <category term="css" scheme="http://example.com/tags/css/" />
         <updated>2022-12-27T08:26:38.411Z</updated>
     </entry>
     <entry>
@@ -278,7 +280,7 @@ visibility:hidden;&lt;br /&gt;
 &lt;/blockquote&gt;
 </content>
         <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-        <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
+        <category term="css" scheme="http://example.com/tags/css/" />
         <updated>2022-12-27T08:18:21.140Z</updated>
     </entry>
     <entry>
@@ -333,7 +335,7 @@ visibility:hidden;&lt;br /&gt;
 ③浮动的元素会具有行内块元素的特性【大小根据内容决定，盒子之间没有缝隙】&lt;/p&gt;
 </content>
         <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-        <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
+        <category term="css" scheme="http://example.com/tags/css/" />
         <updated>2022-12-27T07:59:00.777Z</updated>
     </entry>
     <entry>
@@ -359,7 +361,7 @@ visibility:hidden;&lt;br /&gt;
 3. 转换为行内块：display:inline-block;&lt;/p&gt;
 </content>
         <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-        <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
+        <category term="css" scheme="http://example.com/tags/css/" />
         <updated>2022-12-27T07:56:07.669Z</updated>
     </entry>
     <entry>
@@ -390,7 +392,7 @@ visibility:hidden;&lt;br /&gt;
 box-sizing:border-box 盒子大小为 width&lt;/p&gt;
 </content>
         <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-        <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
+        <category term="css" scheme="http://example.com/tags/css/" />
         <updated>2022-12-27T07:52:11.291Z</updated>
     </entry>
     <entry>
@@ -417,7 +419,7 @@ background-color:yellow;&lt;br /&gt;
 &lt;p&gt;继承 或者 * &amp;lt; 元素选择器 &amp;lt; 类选择器，伪类选择器 &amp;lt; ID 选择器 &amp;lt; 行内样式 style=&amp;quot;&amp;quot; &amp;lt; !important【重要的】&lt;/p&gt;
 </content>
         <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-        <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
+        <category term="css" scheme="http://example.com/tags/css/" />
         <updated>2022-12-27T07:34:49.141Z</updated>
     </entry>
     <entry>
