@@ -207,30 +207,6 @@ box-sizing:border-box 盒子大小为 width</p>
       </tags>
   </entry>
   <entry>
-    <title>HTTP</title>
-    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
-<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
-<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
-<p>①Host 要请求的服务器域名<br />
-②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
-③Content-Length 用来描述请求体的大小<br />
-④Accept 客户端可识别的响应内容类型列表<br />
-⑤User-Agent 产生请求的浏览器类型<br />
-⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
-⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
-⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
-<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
-<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
-<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
-<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
-<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
-<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>CSS选择器及优先级</title>
     <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
     <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
@@ -260,6 +236,30 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
+    <title>HTTP</title>
+    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
+    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
+<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
+<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
+<p>①Host 要请求的服务器域名<br />
+②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
+③Content-Length 用来描述请求体的大小<br />
+④Accept 客户端可识别的响应内容类型列表<br />
+⑤User-Agent 产生请求的浏览器类型<br />
+⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
+⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
+⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
+<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
+<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
+<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
+<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
+<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
+<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>JavaScript事件</title>
     <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
     <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
@@ -276,35 +276,6 @@ background-color:yellow;<br />
  2. 资源加载，如 load、error 等<br />
  3. 定时器，包括 setInterval、setTimeout 等<br />
 异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
-]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaScript面向对象</title>
-    <url>/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
-    <content><![CDATA[<h1 id="javascript的成员查找机制规则"><a class="anchor" href="#javascript的成员查找机制规则">#</a> JavaScript 的成员查找机制（规则）</h1>
-<p>①当访问一个对象的属性（包括方法）时，首先查找这个对象自身有没有该属性。<br />
-②如果没有就查找它的原型（也就是_proto_指向的 prototype 原型对象）。<br />
-③如果还没有就查找原型对象的原型（Object 的原型对象）。<br />
-④以此类推一直找到 Object 为止（null）。<br />
-⑤_proto_对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。</p>
-<h1 id="es5中的新增方法"><a class="anchor" href="#es5中的新增方法">#</a> ES5 中的新增方法</h1>
-<h2 id="字符串方法"><a class="anchor" href="#字符串方法">#</a> 字符串方法</h2>
-<p>str.trim () 从一个字符串的两端删除空白字符，不影响原字符串本身。</p>
-<h2 id="对象方法"><a class="anchor" href="#对象方法">#</a> 对象方法</h2>
-<p>Object.keys (obj) 用于获取对象自身所有的属性，返回一个由属性名组成的数组。</p>
-<h1 id="es6的新增语法"><a class="anchor" href="#es6的新增语法">#</a> ES6 的新增语法</h1>
-<h2 id="let"><a class="anchor" href="#let">#</a> let</h2>
-<p>作用域为该语句所在的代码块内，不存在变量提升。</p>
-<h2 id="const"><a class="anchor" href="#const">#</a> const</h2>
-<p>声明的是常量，在后面出现的代码中不能再修改该常量的值。</p>
-<h2 id="var"><a class="anchor" href="#var">#</a> var</h2>
-<p>作用域为该语句所在的函数内，且存在变量提升现象。</p>
 ]]></content>
       <categories>
         <category>JavaScript</category>
@@ -383,6 +354,35 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
 ]]></content>
+  </entry>
+  <entry>
+    <title>JavaScript面向对象</title>
+    <url>/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[<h1 id="javascript的成员查找机制规则"><a class="anchor" href="#javascript的成员查找机制规则">#</a> JavaScript 的成员查找机制（规则）</h1>
+<p>①当访问一个对象的属性（包括方法）时，首先查找这个对象自身有没有该属性。<br />
+②如果没有就查找它的原型（也就是_proto_指向的 prototype 原型对象）。<br />
+③如果还没有就查找原型对象的原型（Object 的原型对象）。<br />
+④以此类推一直找到 Object 为止（null）。<br />
+⑤_proto_对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。</p>
+<h1 id="es5中的新增方法"><a class="anchor" href="#es5中的新增方法">#</a> ES5 中的新增方法</h1>
+<h2 id="字符串方法"><a class="anchor" href="#字符串方法">#</a> 字符串方法</h2>
+<p>str.trim () 从一个字符串的两端删除空白字符，不影响原字符串本身。</p>
+<h2 id="对象方法"><a class="anchor" href="#对象方法">#</a> 对象方法</h2>
+<p>Object.keys (obj) 用于获取对象自身所有的属性，返回一个由属性名组成的数组。</p>
+<h1 id="es6的新增语法"><a class="anchor" href="#es6的新增语法">#</a> ES6 的新增语法</h1>
+<h2 id="let"><a class="anchor" href="#let">#</a> let</h2>
+<p>作用域为该语句所在的代码块内，不存在变量提升。</p>
+<h2 id="const"><a class="anchor" href="#const">#</a> const</h2>
+<p>声明的是常量，在后面出现的代码中不能再修改该常量的值。</p>
+<h2 id="var"><a class="anchor" href="#var">#</a> var</h2>
+<p>作用域为该语句所在的函数内，且存在变量提升现象。</p>
+]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
   </entry>
   <entry>
     <title>vue组件的生命周期</title>
