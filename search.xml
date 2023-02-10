@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CSS提升</title>
+    <url>/CSS%E6%8F%90%E5%8D%87/</url>
+    <content><![CDATA[<h1 id="vertical-align属性应用只针对行内元素或者行内块元素垂直对齐"><a class="anchor" href="#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐">#</a> vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐</h1>
+<p>1. 设置图片或者表单（行内块元素）和文字垂直对齐<br />
+ 2.vertical-align: baseline |  top  |  middle  |  bottom</p>
+<h2 id="解决图片底部默认空白缝隙问题"><a class="anchor" href="#解决图片底部默认空白缝隙问题">#</a> 解决图片底部默认空白缝隙问题</h2>
+<p>1. 给图片添加 vertical-align: baseline |  top  |  middle  |  bottom 等。（推荐使用）<br />
+2. 把图片转换为块级元素 display:block;</p>
+<h1 id="溢出的文字省略号显示"><a class="anchor" href="#溢出的文字省略号显示">#</a> 溢出的文字省略号显示</h1>
+<h2 id="单行文本溢出显示省略号"><a class="anchor" href="#单行文本溢出显示省略号">#</a> 单行文本溢出显示省略号</h2>
+<p>1. 先强制一行内显示文本 white-space:nowrap;<br />
+2. 超出的部分隐藏 overflow:hidden;<br />
+3. 文本用省略号替代超出的部分 text-overflow:ellipsis;</p>
+<h2 id="多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端"><a class="anchor" href="#多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端">#</a> 多行文本溢出显示省略号【兼容性问题，适用于 webKit 浏览器或移动端】</h2>
+<p>1.overflow:hidden;<br />
+2.text-overflow:ellipsis;<br />
+3. 弹性伸缩盒子模型显示 display:-webkit-box;<br />
+4. 限制在一个块元素显示的文本的行数 - webkit-line-clamp:2;<br />
+5. 设置或检索伸缩盒对象的子元素的排列方式 - webkit-box-orient:vertical;</p>
+<h1 id="css三角"><a class="anchor" href="#css三角">#</a> CSS 三角</h1>
+<p>div<br />
+{<br />
+width:0;<br />
+height:0;<br />
+line-height:0;<br />
+font-size:0;<br />
+border:50px solid transparent;<br />
+border-left-color:pink;<br />
+}</p>
+<h1 id="css三角强化"><a class="anchor" href="#css三角强化">#</a> CSS 三角强化</h1>
+<p>width:0;<br />
+height:0;<br />
+border-color: transparent red transparent transparent;<br />
+border-style:solid;<br />
+border-width:22px 8px 0 0;</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS定位及浮动</title>
     <url>/CSS%E5%AE%9A%E4%BD%8D%E5%8F%8A%E6%B5%AE%E5%8A%A8/</url>
     <content><![CDATA[<h1 id="定位叠放次序选择器-z-index-1"><a class="anchor" href="#定位叠放次序选择器-z-index-1">#</a> 定位叠放次序【选择器 {z-index: 1;}】</h1>
@@ -58,111 +102,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS提升</title>
-    <url>/CSS%E6%8F%90%E5%8D%87/</url>
-    <content><![CDATA[<h1 id="vertical-align属性应用只针对行内元素或者行内块元素垂直对齐"><a class="anchor" href="#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐">#</a> vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐</h1>
-<p>1. 设置图片或者表单（行内块元素）和文字垂直对齐<br />
- 2.vertical-align: baseline |  top  |  middle  |  bottom</p>
-<h2 id="解决图片底部默认空白缝隙问题"><a class="anchor" href="#解决图片底部默认空白缝隙问题">#</a> 解决图片底部默认空白缝隙问题</h2>
-<p>1. 给图片添加 vertical-align: baseline |  top  |  middle  |  bottom 等。（推荐使用）<br />
-2. 把图片转换为块级元素 display:block;</p>
-<h1 id="溢出的文字省略号显示"><a class="anchor" href="#溢出的文字省略号显示">#</a> 溢出的文字省略号显示</h1>
-<h2 id="单行文本溢出显示省略号"><a class="anchor" href="#单行文本溢出显示省略号">#</a> 单行文本溢出显示省略号</h2>
-<p>1. 先强制一行内显示文本 white-space:nowrap;<br />
-2. 超出的部分隐藏 overflow:hidden;<br />
-3. 文本用省略号替代超出的部分 text-overflow:ellipsis;</p>
-<h2 id="多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端"><a class="anchor" href="#多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端">#</a> 多行文本溢出显示省略号【兼容性问题，适用于 webKit 浏览器或移动端】</h2>
-<p>1.overflow:hidden;<br />
-2.text-overflow:ellipsis;<br />
-3. 弹性伸缩盒子模型显示 display:-webkit-box;<br />
-4. 限制在一个块元素显示的文本的行数 - webkit-line-clamp:2;<br />
-5. 设置或检索伸缩盒对象的子元素的排列方式 - webkit-box-orient:vertical;</p>
-<h1 id="css三角"><a class="anchor" href="#css三角">#</a> CSS 三角</h1>
-<p>div<br />
-{<br />
-width:0;<br />
-height:0;<br />
-line-height:0;<br />
-font-size:0;<br />
-border:50px solid transparent;<br />
-border-left-color:pink;<br />
-}</p>
-<h1 id="css三角强化"><a class="anchor" href="#css三角强化">#</a> CSS 三角强化</h1>
-<p>width:0;<br />
-height:0;<br />
-border-color: transparent red transparent transparent;<br />
-border-style:solid;<br />
-border-width:22px 8px 0 0;</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS盒子模型</title>
-    <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
-<p>1. 盒子与盒子之间距离<br />
- 2. 水平居中：<br />
-①盒子必须指定了宽度 (width)。<br />
-②盒子左右的外边距都设置为 auto。<br />
-【margin:auto;/margin-left:auto;margin-right:auto;/margin: 0 auto;】</p>
-<h2 id="外边距合并"><a class="anchor" href="#外边距合并">#</a> 外边距合并</h2>
-<p>1. 只为一个盒子设置外边距<br />
- 2. 父元素塌陷<br />
-①可以为父元素定义上边框<br />
-②可以为父元素定义上内边距<br />
-③可以为父元素添加 overflow:hidden;</p>
-<h1 id="内边距padding"><a class="anchor" href="#内边距padding">#</a> 内边距（padding）</h1>
-<p>没有指定 width/height，padding 不会撑大盒子</p>
-<h1 id="边框border"><a class="anchor" href="#边框border">#</a> 边框（border）</h1>
-<p>1.border  :  border-width【宽度】 ||   border-style 【样式】   ||    border-color【颜色】（没有顺序）<br />
-2.border-top/bottom/left/right:【具有层叠性】<br />
-3.solid【实线边框】   dashed【虚线边框】   dotted【点线边框】<br />
-4.border-collapse:  collapse;【合并，表示相邻边框合并在一起】</p>
-<h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
-<p>box-sizing:content-box 盒子大小为 width+padding+border<br />
-box-sizing:border-box 盒子大小为 width</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS清除浮动</title>
     <url>/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</url>
     <content><![CDATA[<h1 id="父级添加双伪元素"><a class="anchor" href="#父级添加双伪元素">#</a> 父级添加双伪元素</h1>
@@ -207,6 +146,88 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS选择器及优先级</title>
+    <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
+    <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
+<p 样式声明="">元素 1  元素 2【后代】  </p>
+<h1 id="子选择器"><a class="anchor" href="#子选择器">#</a> 子选择器</h1>
+<p 样式声明="">元素 1 &gt; 元素 2【儿子】  </p>
+<h1 id="并集选择器"><a class="anchor" href="#并集选择器">#</a> 并集选择器</h1>
+<p>元素 1 ， 元素 2   {样式声明}【可以选择多组标签】</p>
+<h1 id="伪类选择器"><a class="anchor" href="#伪类选择器">#</a> 伪类选择器</h1>
+<h2 id="链接伪类选择器"><a class="anchor" href="#链接伪类选择器">#</a> 链接伪类选择器</h2>
+<p>顺序不可颠倒，链接样式单独修改<br />
+ a {}<br />
+ a:hover【选择鼠标指针位于其上的链接】</p>
+<h2 id="focus伪类选择器"><a class="anchor" href="#focus伪类选择器">#</a> :focus 伪类选择器</h2>
+<p>input:focus<br />
+{<br />
+background-color:yellow;<br />
+}</p>
+<h1 id="优先级"><a class="anchor" href="#优先级">#</a> 优先级</h1>
+<p>继承 或者 * &lt; 元素选择器 &lt; 类选择器，伪类选择器 &lt; ID 选择器 &lt; 行内样式 style=&quot;&quot; &lt; !important【重要的】</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript事件</title>
+    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
+<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
+<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
+<p>同步任务都在主线程上执行，形成一个执行栈。</p>
+<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
+<p>JS 的异步是通过回调函数实现的。<br />
+一般而言，异步任务有以下三种类型：<br />
+1. 普通事件，如 click、resize 等<br />
+ 2. 资源加载，如 load、error 等<br />
+ 3. 定时器，包括 setInterval、setTimeout 等<br />
+异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTTP</title>
     <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
     <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
@@ -237,57 +258,58 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
-    <title>JavaScript事件</title>
-    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
-<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
-<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
-<p>同步任务都在主线程上执行，形成一个执行栈。</p>
-<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
-<p>JS 的异步是通过回调函数实现的。<br />
-一般而言，异步任务有以下三种类型：<br />
-1. 普通事件，如 click、resize 等<br />
- 2. 资源加载，如 load、error 等<br />
- 3. 定时器，包括 setInterval、setTimeout 等<br />
-异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
-]]></content>
-      <categories>
-        <category>JavaScript学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS选择器及优先级</title>
-    <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
-    <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
-<p 样式声明="">元素 1  元素 2【后代】  </p>
-<h1 id="子选择器"><a class="anchor" href="#子选择器">#</a> 子选择器</h1>
-<p 样式声明="">元素 1 &gt; 元素 2【儿子】  </p>
-<h1 id="并集选择器"><a class="anchor" href="#并集选择器">#</a> 并集选择器</h1>
-<p>元素 1 ， 元素 2   {样式声明}【可以选择多组标签】</p>
-<h1 id="伪类选择器"><a class="anchor" href="#伪类选择器">#</a> 伪类选择器</h1>
-<h2 id="链接伪类选择器"><a class="anchor" href="#链接伪类选择器">#</a> 链接伪类选择器</h2>
-<p>顺序不可颠倒，链接样式单独修改<br />
- a {}<br />
- a:hover【选择鼠标指针位于其上的链接】</p>
-<h2 id="focus伪类选择器"><a class="anchor" href="#focus伪类选择器">#</a> :focus 伪类选择器</h2>
-<p>input:focus<br />
-{<br />
-background-color:yellow;<br />
-}</p>
-<h1 id="优先级"><a class="anchor" href="#优先级">#</a> 优先级</h1>
-<p>继承 或者 * &lt; 元素选择器 &lt; 类选择器，伪类选择器 &lt; ID 选择器 &lt; 行内样式 style=&quot;&quot; &lt; !important【重要的】</p>
+    <title>CSS盒子模型</title>
+    <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
+<p>1. 盒子与盒子之间距离<br />
+ 2. 水平居中：<br />
+①盒子必须指定了宽度 (width)。<br />
+②盒子左右的外边距都设置为 auto。<br />
+【margin:auto;/margin-left:auto;margin-right:auto;/margin: 0 auto;】</p>
+<h2 id="外边距合并"><a class="anchor" href="#外边距合并">#</a> 外边距合并</h2>
+<p>1. 只为一个盒子设置外边距<br />
+ 2. 父元素塌陷<br />
+①可以为父元素定义上边框<br />
+②可以为父元素定义上内边距<br />
+③可以为父元素添加 overflow:hidden;</p>
+<h1 id="内边距padding"><a class="anchor" href="#内边距padding">#</a> 内边距（padding）</h1>
+<p>没有指定 width/height，padding 不会撑大盒子</p>
+<h1 id="边框border"><a class="anchor" href="#边框border">#</a> 边框（border）</h1>
+<p>1.border  :  border-width【宽度】 ||   border-style 【样式】   ||    border-color【颜色】（没有顺序）<br />
+2.border-top/bottom/left/right:【具有层叠性】<br />
+3.solid【实线边框】   dashed【虚线边框】   dotted【点线边框】<br />
+4.border-collapse:  collapse;【合并，表示相邻边框合并在一起】</p>
+<h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
+<p>box-sizing:content-box 盒子大小为 width+padding+border<br />
+box-sizing:border-box 盒子大小为 width</p>
 ]]></content>
       <categories>
         <category>css学习笔记</category>
       </categories>
       <tags>
         <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript条件判断</title>
+    <url>/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</url>
+    <content><![CDATA[<h1 id="短路运算"><a class="anchor" href="#短路运算">#</a> 短路运算</h1>
+<p>① 语法：表达式 1 &amp;&amp; 表达式 2<br />
+ 如果表达式 1 的值为真，返回表达式 2<br />
+ 如果表达式 1 的值为假，返回表达式 1<br />
+② 语法：表达式 1 || 表达式 2<br />
+ 如果表达式 1 的值为真，返回表达式 1<br />
+ 如果表达式 1 的值为假，返回表达式 2</p>
+<h1 id="三元表达式"><a class="anchor" href="#三元表达式">#</a> 三元表达式</h1>
+<p>条件表达式 ？ 表达式 1 ： 表达式 2<br />
+ 条件表达式结果为真，返回表达式 1<br />
+ 条件表达式结果为假，返回表达式 2</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
@@ -387,28 +409,6 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
 ]]></content>
-  </entry>
-  <entry>
-    <title>JavaScript条件判断</title>
-    <url>/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</url>
-    <content><![CDATA[<h1 id="短路运算"><a class="anchor" href="#短路运算">#</a> 短路运算</h1>
-<p>① 语法：表达式 1 &amp;&amp; 表达式 2<br />
- 如果表达式 1 的值为真，返回表达式 2<br />
- 如果表达式 1 的值为假，返回表达式 1<br />
-② 语法：表达式 1 || 表达式 2<br />
- 如果表达式 1 的值为真，返回表达式 1<br />
- 如果表达式 1 的值为假，返回表达式 2</p>
-<h1 id="三元表达式"><a class="anchor" href="#三元表达式">#</a> 三元表达式</h1>
-<p>条件表达式 ？ 表达式 1 ： 表达式 2<br />
- 条件表达式结果为真，返回表达式 1<br />
- 条件表达式结果为假，返回表达式 2</p>
-]]></content>
-      <categories>
-        <category>JavaScript学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
   </entry>
   <entry>
     <title>vue组件的生命周期</title>
