@@ -17,7 +17,7 @@
             <guid isPermalink="true">http://example.com/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
             <title></title>
             <link></link>
-            <category term="vue" scheme="http://example.com/categories/vue/" />
+            <category term="vue" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="vue" scheme="http://example.com/tags/vue/" />
             <pubDate>Wed, 28 Dec 2022 18:44:14 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;beforecreate&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#beforecreate&#34;&gt;#&lt;/a&gt; beforeCreate&lt;/h1&gt;
@@ -58,7 +58,7 @@
             <guid isPermalink="true">http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Wed, 28 Dec 2022 17:30:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;asyncawait&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#asyncawait&#34;&gt;#&lt;/a&gt; async/await&lt;/h1&gt;
@@ -130,7 +130,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Wed, 28 Dec 2022 00:45:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;javascript的成员查找机制规则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#javascript的成员查找机制规则&#34;&gt;#&lt;/a&gt; JavaScript 的成员查找机制（规则）&lt;/h1&gt;
@@ -157,7 +157,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/JavaScript%E4%BA%8B%E4%BB%B6/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Tue, 27 Dec 2022 20:12:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;事件高级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#事件高级&#34;&gt;#&lt;/a&gt; 事件高级&lt;/h1&gt;
@@ -180,7 +180,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript/" />
+            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Tue, 27 Dec 2022 19:22:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;短路运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#短路运算&#34;&gt;#&lt;/a&gt; 短路运算&lt;/h1&gt;
@@ -200,7 +200,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E6%8F%90%E5%8D%87/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/CSS/" />
+            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 16:26:38 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;vertical-align属性应用只针对行内元素或者行内块元素垂直对齐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐&#34;&gt;#&lt;/a&gt; vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐&lt;/h1&gt;
@@ -242,7 +242,7 @@ border-width:22px 8px 0 0;&lt;/p&gt;
             <guid isPermalink="true">http://example.com/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/CSS/" />
+            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 16:18:21 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;父级添加双伪元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#父级添加双伪元素&#34;&gt;#&lt;/a&gt; 父级添加双伪元素&lt;/h1&gt;
@@ -284,7 +284,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E5%AE%9A%E4%BD%8D%E5%8F%8A%E6%B5%AE%E5%8A%A8/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/CSS/" />
+            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:59:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;定位叠放次序选择器-z-index-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定位叠放次序选择器-z-index-1&#34;&gt;#&lt;/a&gt; 定位叠放次序【选择器 {z-index: 1;}】&lt;/h1&gt;
@@ -339,7 +339,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/CSS/" />
+            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:56:07 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;行内块元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行内块元素&#34;&gt;#&lt;/a&gt; 行内块元素&lt;/h1&gt;
@@ -365,7 +365,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/CSS/" />
+            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:52:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;外边距margin&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外边距margin&#34;&gt;#&lt;/a&gt; 外边距（margin）&lt;/h1&gt;
@@ -396,7 +396,7 @@ box-sizing:border-box 盒子大小为 width&lt;/p&gt;
             <guid isPermalink="true">http://example.com/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/CSS/" />
+            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="css" scheme="http://example.com/tags/css/" />
             <pubDate>Tue, 27 Dec 2022 15:34:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;后代选择器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后代选择器&#34;&gt;#&lt;/a&gt; 后代选择器&lt;/h1&gt;
