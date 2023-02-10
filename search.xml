@@ -174,60 +174,6 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
-    <title>JavaScript事件</title>
-    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
-<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
-<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
-<p>同步任务都在主线程上执行，形成一个执行栈。</p>
-<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
-<p>JS 的异步是通过回调函数实现的。<br />
-一般而言，异步任务有以下三种类型：<br />
-1. 普通事件，如 click、resize 等<br />
- 2. 资源加载，如 load、error 等<br />
- 3. 定时器，包括 setInterval、setTimeout 等<br />
-异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
-]]></content>
-      <categories>
-        <category>JavaScript学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS选择器及优先级</title>
-    <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
-    <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
-<p 样式声明="">元素 1  元素 2【后代】  </p>
-<h1 id="子选择器"><a class="anchor" href="#子选择器">#</a> 子选择器</h1>
-<p 样式声明="">元素 1 &gt; 元素 2【儿子】  </p>
-<h1 id="并集选择器"><a class="anchor" href="#并集选择器">#</a> 并集选择器</h1>
-<p>元素 1 ， 元素 2   {样式声明}【可以选择多组标签】</p>
-<h1 id="伪类选择器"><a class="anchor" href="#伪类选择器">#</a> 伪类选择器</h1>
-<h2 id="链接伪类选择器"><a class="anchor" href="#链接伪类选择器">#</a> 链接伪类选择器</h2>
-<p>顺序不可颠倒，链接样式单独修改<br />
- a {}<br />
- a:hover【选择鼠标指针位于其上的链接】</p>
-<h2 id="focus伪类选择器"><a class="anchor" href="#focus伪类选择器">#</a> :focus 伪类选择器</h2>
-<p>input:focus<br />
-{<br />
-background-color:yellow;<br />
-}</p>
-<h1 id="优先级"><a class="anchor" href="#优先级">#</a> 优先级</h1>
-<p>继承 或者 * &lt; 元素选择器 &lt; 类选择器，伪类选择器 &lt; ID 选择器 &lt; 行内样式 style=&quot;&quot; &lt; !important【重要的】</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS盒子模型</title>
     <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
@@ -252,6 +198,35 @@ background-color:yellow;<br />
 <h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
 <p>box-sizing:content-box 盒子大小为 width+padding+border<br />
 box-sizing:border-box 盒子大小为 width</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>CSS学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS选择器及优先级</title>
+    <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
+    <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
+<p 样式声明="">元素 1  元素 2【后代】  </p>
+<h1 id="子选择器"><a class="anchor" href="#子选择器">#</a> 子选择器</h1>
+<p 样式声明="">元素 1 &gt; 元素 2【儿子】  </p>
+<h1 id="并集选择器"><a class="anchor" href="#并集选择器">#</a> 并集选择器</h1>
+<p>元素 1 ， 元素 2   {样式声明}【可以选择多组标签】</p>
+<h1 id="伪类选择器"><a class="anchor" href="#伪类选择器">#</a> 伪类选择器</h1>
+<h2 id="链接伪类选择器"><a class="anchor" href="#链接伪类选择器">#</a> 链接伪类选择器</h2>
+<p>顺序不可颠倒，链接样式单独修改<br />
+ a {}<br />
+ a:hover【选择鼠标指针位于其上的链接】</p>
+<h2 id="focus伪类选择器"><a class="anchor" href="#focus伪类选择器">#</a> :focus 伪类选择器</h2>
+<p>input:focus<br />
+{<br />
+background-color:yellow;<br />
+}</p>
+<h1 id="优先级"><a class="anchor" href="#优先级">#</a> 优先级</h1>
+<p>继承 或者 * &lt; 元素选择器 &lt; 类选择器，伪类选择器 &lt; ID 选择器 &lt; 行内样式 style=&quot;&quot; &lt; !important【重要的】</p>
 ]]></content>
       <categories>
         <category>css学习笔记</category>
@@ -288,26 +263,6 @@ box-sizing:border-box 盒子大小为 width</p>
       </tags>
   </entry>
   <entry>
-    <title>MVVM</title>
-    <url>/MVVM/</url>
-    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
-<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
-①Model 表示当前页面渲染时所依赖的数据源。<br />
-②View 表示当前页面所渲染的 DOM 结构。<br />
-③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
-<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
-<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
-当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
-当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
-]]></content>
-      <categories>
-        <category>vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JavaScript条件判断</title>
     <url>/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</url>
     <content><![CDATA[<h1 id="短路运算"><a class="anchor" href="#短路运算">#</a> 短路运算</h1>
@@ -321,6 +276,31 @@ box-sizing:border-box 盒子大小为 width</p>
 <p>条件表达式 ？ 表达式 1 ： 表达式 2<br />
  条件表达式结果为真，返回表达式 1<br />
  条件表达式结果为假，返回表达式 2</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript事件</title>
+    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
+<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
+<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
+<p>同步任务都在主线程上执行，形成一个执行栈。</p>
+<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
+<p>JS 的异步是通过回调函数实现的。<br />
+一般而言，异步任务有以下三种类型：<br />
+1. 普通事件，如 click、resize 等<br />
+ 2. 资源加载，如 load、error 等<br />
+ 3. 定时器，包括 setInterval、setTimeout 等<br />
+异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
 ]]></content>
       <categories>
         <category>JavaScript学习笔记</category>
@@ -356,6 +336,26 @@ box-sizing:border-box 盒子大小为 width</p>
       </categories>
       <tags>
         <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MVVM</title>
+    <url>/MVVM/</url>
+    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
+<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
+①Model 表示当前页面渲染时所依赖的数据源。<br />
+②View 表示当前页面所渲染的 DOM 结构。<br />
+③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
+<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
+<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
+当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
+当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
+]]></content>
+      <categories>
+        <category>vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
