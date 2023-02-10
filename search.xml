@@ -102,6 +102,34 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
+]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS提升</title>
     <url>/CSS%E6%8F%90%E5%8D%87/</url>
     <content><![CDATA[<h1 id="vertical-align属性应用只针对行内元素或者行内块元素垂直对齐"><a class="anchor" href="#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐">#</a> vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐</h1>
@@ -144,58 +172,6 @@ border-width:22px 8px 0 0;</p>
       <tags>
         <tag>CSS</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTTP</title>
-    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
-<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
-<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
-<p>①Host 要请求的服务器域名<br />
-②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
-③Content-Length 用来描述请求体的大小<br />
-④Accept 客户端可识别的响应内容类型列表<br />
-⑤User-Agent 产生请求的浏览器类型<br />
-⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
-⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
-⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
-<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
-<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
-<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
-<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
-<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
-<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
-]]></content>
   </entry>
   <entry>
     <title>CSS盒子模型</title>
@@ -258,6 +234,30 @@ background-color:yellow;<br />
       <tags>
         <tag>CSS</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>HTTP</title>
+    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
+    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
+<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
+<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
+<p>①Host 要请求的服务器域名<br />
+②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
+③Content-Length 用来描述请求体的大小<br />
+④Accept 客户端可识别的响应内容类型列表<br />
+⑤User-Agent 产生请求的浏览器类型<br />
+⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
+⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
+⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
+<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
+<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
+<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
+<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
+<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
+<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
+]]></content>
   </entry>
   <entry>
     <title>JavaScript事件</title>
@@ -350,33 +350,6 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
-    <title>vue组件的生命周期</title>
-    <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
-    <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
-<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>
-<h1 id="created"><a class="anchor" href="#created">#</a> created</h1>
-<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>
-<h1 id="beforemount"><a class="anchor" href="#beforemount">#</a> beforeMount</h1>
-<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>
-<h1 id="mounted"><a class="anchor" href="#mounted">#</a> mounted</h1>
-<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>
-<h1 id="beforeupdated"><a class="anchor" href="#beforeupdated">#</a> beforeUpdated</h1>
-<p>在组件被重新渲染之前，执行 0 或 多次</p>
-<h1 id="updated"><a class="anchor" href="#updated">#</a> updated</h1>
-<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>
-<h1 id="beforeunmount"><a class="anchor" href="#beforeunmount">#</a> beforeUnmount</h1>
-<p>在组件被销毁之前，执行唯一 1 次</p>
-<h1 id="unmounted"><a class="anchor" href="#unmounted">#</a> unmounted</h1>
-<p>组件被销毁后（页面和内存），执行唯一 1 次</p>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客搭建：配置【主题：shoka】</title>
     <url>/blog/</url>
     <content><![CDATA[<h1 id="事件起因"><a class="anchor" href="#事件起因">#</a> 事件起因</h1>
@@ -424,6 +397,33 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
 ]]></content>
+  </entry>
+  <entry>
+    <title>vue组件的生命周期</title>
+    <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+    <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
+<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>
+<h1 id="created"><a class="anchor" href="#created">#</a> created</h1>
+<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>
+<h1 id="beforemount"><a class="anchor" href="#beforemount">#</a> beforeMount</h1>
+<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>
+<h1 id="mounted"><a class="anchor" href="#mounted">#</a> mounted</h1>
+<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>
+<h1 id="beforeupdated"><a class="anchor" href="#beforeupdated">#</a> beforeUpdated</h1>
+<p>在组件被重新渲染之前，执行 0 或 多次</p>
+<h1 id="updated"><a class="anchor" href="#updated">#</a> updated</h1>
+<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>
+<h1 id="beforeunmount"><a class="anchor" href="#beforeunmount">#</a> beforeUnmount</h1>
+<p>在组件被销毁之前，执行唯一 1 次</p>
+<h1 id="unmounted"><a class="anchor" href="#unmounted">#</a> unmounted</h1>
+<p>组件被销毁后（页面和内存），执行唯一 1 次</p>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
   </entry>
   <entry>
     <title>前后端的身份认证</title>
