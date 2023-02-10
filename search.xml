@@ -58,50 +58,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CSS清除浮动</title>
-    <url>/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</url>
-    <content><![CDATA[<h1 id="父级添加双伪元素"><a class="anchor" href="#父级添加双伪元素">#</a> 父级添加双伪元素</h1>
-<p>.clearfix:before,.clearfix:after<br />
-{<br />
-content:&quot;&quot;;<br />
-display:table;<br />
-}<br />
-.clearfix:after<br />
-{<br />
-clear:both;<br />
-}<br />
-.clearfix<br />
-{<br />
-*zoom:1;<br />
-}</p>
-<h1 id="父级添加overflow属性"><a class="anchor" href="#父级添加overflow属性">#</a> 父级添加 overflow 属性</h1>
-<p>overflow: hidden;【无法显示溢出盒子部分】</p>
-<h1 id="父级添加after伪元素"><a class="anchor" href="#父级添加after伪元素">#</a> 父级添加 after 伪元素</h1>
-<p>.clearfix:after<br />
-{<br />
-content:&quot;&quot;;<br />
-display:block;<br />
-height:0;<br />
-clear:both;<br />
-visibility:hidden;<br />
-}<br />
-.clearfix<br />
-{<br />
-*zoom:1;<br />
-}</p>
-<h1 id="额外标签法隔墙法"><a class="anchor" href="#额外标签法隔墙法">#</a> 额外标签法【隔墙法】</h1>
-<blockquote>
-<p>在浮动元素末尾添加一个空的标签。例如 div style=&quot;clear:both&quot;，或者其他标签（如 &lt;br/&gt; 等）【必须为块级元素】。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS提升</title>
     <url>/CSS%E6%8F%90%E5%8D%87/</url>
     <content><![CDATA[<h1 id="vertical-align属性应用只针对行内元素或者行内块元素垂直对齐"><a class="anchor" href="#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐">#</a> vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐</h1>
@@ -137,6 +93,50 @@ height:0;<br />
 border-color: transparent red transparent transparent;<br />
 border-style:solid;<br />
 border-width:22px 8px 0 0;</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>CSS学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS清除浮动</title>
+    <url>/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</url>
+    <content><![CDATA[<h1 id="父级添加双伪元素"><a class="anchor" href="#父级添加双伪元素">#</a> 父级添加双伪元素</h1>
+<p>.clearfix:before,.clearfix:after<br />
+{<br />
+content:&quot;&quot;;<br />
+display:table;<br />
+}<br />
+.clearfix:after<br />
+{<br />
+clear:both;<br />
+}<br />
+.clearfix<br />
+{<br />
+*zoom:1;<br />
+}</p>
+<h1 id="父级添加overflow属性"><a class="anchor" href="#父级添加overflow属性">#</a> 父级添加 overflow 属性</h1>
+<p>overflow: hidden;【无法显示溢出盒子部分】</p>
+<h1 id="父级添加after伪元素"><a class="anchor" href="#父级添加after伪元素">#</a> 父级添加 after 伪元素</h1>
+<p>.clearfix:after<br />
+{<br />
+content:&quot;&quot;;<br />
+display:block;<br />
+height:0;<br />
+clear:both;<br />
+visibility:hidden;<br />
+}<br />
+.clearfix<br />
+{<br />
+*zoom:1;<br />
+}</p>
+<h1 id="额外标签法隔墙法"><a class="anchor" href="#额外标签法隔墙法">#</a> 额外标签法【隔墙法】</h1>
+<blockquote>
+<p>在浮动元素末尾添加一个空的标签。例如 div style=&quot;clear:both&quot;，或者其他标签（如 &lt;br/&gt; 等）【必须为块级元素】。</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>css学习笔记</category>
@@ -339,53 +339,6 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
-    <title>MVVM</title>
-    <url>/MVVM/</url>
-    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
-<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
-①Model 表示当前页面渲染时所依赖的数据源。<br />
-②View 表示当前页面所渲染的 DOM 结构。<br />
-③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
-<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
-<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
-当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
-当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
-]]></content>
-      <categories>
-        <category>vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue组件的生命周期</title>
-    <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
-    <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
-<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>
-<h1 id="created"><a class="anchor" href="#created">#</a> created</h1>
-<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>
-<h1 id="beforemount"><a class="anchor" href="#beforemount">#</a> beforeMount</h1>
-<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>
-<h1 id="mounted"><a class="anchor" href="#mounted">#</a> mounted</h1>
-<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>
-<h1 id="beforeupdated"><a class="anchor" href="#beforeupdated">#</a> beforeUpdated</h1>
-<p>在组件被重新渲染之前，执行 0 或 多次</p>
-<h1 id="updated"><a class="anchor" href="#updated">#</a> updated</h1>
-<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>
-<h1 id="beforeunmount"><a class="anchor" href="#beforeunmount">#</a> beforeUnmount</h1>
-<p>在组件被销毁之前，执行唯一 1 次</p>
-<h1 id="unmounted"><a class="anchor" href="#unmounted">#</a> unmounted</h1>
-<p>组件被销毁后（页面和内存），执行唯一 1 次</p>
-]]></content>
-      <categories>
-        <category>vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客搭建：配置【主题：shoka】</title>
     <url>/blog/</url>
     <content><![CDATA[<h1 id="事件起因"><a class="anchor" href="#事件起因">#</a> 事件起因</h1>
@@ -435,6 +388,26 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 ]]></content>
   </entry>
   <entry>
+    <title>MVVM</title>
+    <url>/MVVM/</url>
+    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
+<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
+①Model 表示当前页面渲染时所依赖的数据源。<br />
+②View 表示当前页面所渲染的 DOM 结构。<br />
+③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
+<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
+<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
+当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
+当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
+]]></content>
+      <categories>
+        <category>vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前后端的身份认证</title>
     <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
     <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
@@ -481,6 +454,33 @@ process.nextTick<br />
       </categories>
       <tags>
         <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue组件的生命周期</title>
+    <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+    <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
+<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>
+<h1 id="created"><a class="anchor" href="#created">#</a> created</h1>
+<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>
+<h1 id="beforemount"><a class="anchor" href="#beforemount">#</a> beforeMount</h1>
+<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>
+<h1 id="mounted"><a class="anchor" href="#mounted">#</a> mounted</h1>
+<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>
+<h1 id="beforeupdated"><a class="anchor" href="#beforeupdated">#</a> beforeUpdated</h1>
+<p>在组件被重新渲染之前，执行 0 或 多次</p>
+<h1 id="updated"><a class="anchor" href="#updated">#</a> updated</h1>
+<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>
+<h1 id="beforeunmount"><a class="anchor" href="#beforeunmount">#</a> beforeUnmount</h1>
+<p>在组件被销毁之前，执行唯一 1 次</p>
+<h1 id="unmounted"><a class="anchor" href="#unmounted">#</a> unmounted</h1>
+<p>组件被销毁后（页面和内存），执行唯一 1 次</p>
+]]></content>
+      <categories>
+        <category>vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
       </tags>
   </entry>
 </search>
