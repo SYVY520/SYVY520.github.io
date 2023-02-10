@@ -146,6 +146,34 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>CSS学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS盒子模型</title>
     <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
@@ -170,34 +198,6 @@ visibility:hidden;<br />
 <h1 id="css3盒子模型"><a class="anchor" href="#css3盒子模型">#</a> CSS3 盒子模型</h1>
 <p>box-sizing:content-box 盒子大小为 width+padding+border<br />
 box-sizing:border-box 盒子大小为 width</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
 ]]></content>
       <categories>
         <category>css学习笔记</category>
