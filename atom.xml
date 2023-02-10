@@ -31,7 +31,7 @@
 &lt;h1 id=&#34;unmounted&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#unmounted&#34;&gt;#&lt;/a&gt; unmounted&lt;/h1&gt;
 &lt;p&gt;组件被销毁后（页面和内存），执行唯一 1 次&lt;/p&gt;
 </content>
-        <category term="vue" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="vue学习笔记" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="vue" scheme="http://example.com/tags/vue/" />
         <updated>2022-12-28T10:44:14.453Z</updated>
     </entry>
@@ -49,6 +49,8 @@
 当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构&lt;br /&gt;
 当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。&lt;/p&gt;
 </content>
+        <category term="vue学习笔记" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="vue" scheme="http://example.com/tags/vue/" />
         <updated>2022-12-28T09:59:33.292Z</updated>
     </entry>
     <entry>
@@ -73,7 +75,7 @@ process.nextTick&lt;br /&gt;
 &lt;h2 id=&#34;执行顺序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#执行顺序&#34;&gt;#&lt;/a&gt; 执行顺序&lt;/h2&gt;
 &lt;p&gt;每一个宏任务执行完之后，都会检查是否存在待执行的微任务，如果有，则执行完所有微任务之后，再继续执行下一个宏任务。&lt;/p&gt;
 </content>
-        <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
         <updated>2022-12-28T09:30:31.530Z</updated>
     </entry>
@@ -95,6 +97,7 @@ process.nextTick&lt;br /&gt;
 ④服务器把 Token 字符串还原成用户的信息对象。&lt;br /&gt;
 ⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。&lt;/p&gt;
 </content>
+        <category term="http" scheme="http://example.com/tags/http/" />
         <updated>2022-12-28T08:54:11.821Z</updated>
     </entry>
     <entry>
@@ -121,6 +124,7 @@ process.nextTick&lt;br /&gt;
 &lt;h2 id=&#34;响应体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#响应体&#34;&gt;#&lt;/a&gt; 响应体&lt;/h2&gt;
 &lt;p&gt;响应体存放的，是服务器响应给客户端的资源内容。&lt;/p&gt;
 </content>
+        <category term="http" scheme="http://example.com/tags/http/" />
         <updated>2022-12-28T07:26:31.184Z</updated>
     </entry>
     <entry>
@@ -146,7 +150,7 @@ process.nextTick&lt;br /&gt;
 &lt;h2 id=&#34;var&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#var&#34;&gt;#&lt;/a&gt; var&lt;/h2&gt;
 &lt;p&gt;作用域为该语句所在的函数内，且存在变量提升现象。&lt;/p&gt;
 </content>
-        <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
         <updated>2022-12-27T16:45:11.966Z</updated>
     </entry>
@@ -169,7 +173,7 @@ process.nextTick&lt;br /&gt;
  3. 定时器，包括 setInterval、setTimeout 等&lt;br /&gt;
 异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。&lt;/p&gt;
 </content>
-        <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
         <updated>2022-12-27T12:12:18.418Z</updated>
     </entry>
@@ -189,7 +193,7 @@ process.nextTick&lt;br /&gt;
  条件表达式结果为真，返回表达式 1&lt;br /&gt;
  条件表达式结果为假，返回表达式 2&lt;/p&gt;
 </content>
-        <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
         <updated>2022-12-27T11:22:32.369Z</updated>
     </entry>
@@ -231,7 +235,7 @@ border-color: transparent red transparent transparent;&lt;br /&gt;
 border-style:solid;&lt;br /&gt;
 border-width:22px 8px 0 0;&lt;/p&gt;
 </content>
-        <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-12-27T08:26:38.411Z</updated>
     </entry>
@@ -273,7 +277,7 @@ visibility:hidden;&lt;br /&gt;
 &lt;p&gt;在浮动元素末尾添加一个空的标签。例如 div style=&amp;quot;clear:both&amp;quot;，或者其他标签（如 &amp;lt;br/&amp;gt; 等）【必须为块级元素】。&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
-        <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-12-27T08:18:21.140Z</updated>
     </entry>
@@ -328,7 +332,7 @@ visibility:hidden;&lt;br /&gt;
 ②浮动的元素会一行内显示并且元素顶部对齐【父级宽度装不下会另起一行显示】&lt;br /&gt;
 ③浮动的元素会具有行内块元素的特性【大小根据内容决定，盒子之间没有缝隙】&lt;/p&gt;
 </content>
-        <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-12-27T07:59:00.777Z</updated>
     </entry>
@@ -354,7 +358,7 @@ visibility:hidden;&lt;br /&gt;
 2. 转换为行内元素：display:inline;&lt;br /&gt;
 3. 转换为行内块：display:inline-block;&lt;/p&gt;
 </content>
-        <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-12-27T07:56:07.669Z</updated>
     </entry>
@@ -385,7 +389,7 @@ visibility:hidden;&lt;br /&gt;
 &lt;p&gt;box-sizing:content-box 盒子大小为 width+padding+border&lt;br /&gt;
 box-sizing:border-box 盒子大小为 width&lt;/p&gt;
 </content>
-        <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-12-27T07:52:11.291Z</updated>
     </entry>
@@ -412,7 +416,7 @@ background-color:yellow;&lt;br /&gt;
 &lt;h1 id=&#34;优先级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优先级&#34;&gt;#&lt;/a&gt; 优先级&lt;/h1&gt;
 &lt;p&gt;继承 或者 * &amp;lt; 元素选择器 &amp;lt; 类选择器，伪类选择器 &amp;lt; ID 选择器 &amp;lt; 行内样式 style=&amp;quot;&amp;quot; &amp;lt; !important【重要的】&lt;/p&gt;
 </content>
-        <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+        <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
         <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
         <updated>2022-12-27T07:34:49.141Z</updated>
     </entry>

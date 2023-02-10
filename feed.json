@@ -13,7 +13,7 @@
             "date_published": "2022-12-28T10:44:14.453Z",
             "content_html": "<h1 id=\"beforecreate\"><a class=\"anchor\" href=\"#beforecreate\">#</a> beforeCreate</h1>\n<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>\n<h1 id=\"created\"><a class=\"anchor\" href=\"#created\">#</a> created</h1>\n<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>\n<h1 id=\"beforemount\"><a class=\"anchor\" href=\"#beforemount\">#</a> beforeMount</h1>\n<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>\n<h1 id=\"mounted\"><a class=\"anchor\" href=\"#mounted\">#</a> mounted</h1>\n<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>\n<h1 id=\"beforeupdated\"><a class=\"anchor\" href=\"#beforeupdated\">#</a> beforeUpdated</h1>\n<p>在组件被重新渲染之前，执行 0 或 多次</p>\n<h1 id=\"updated\"><a class=\"anchor\" href=\"#updated\">#</a> updated</h1>\n<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>\n<h1 id=\"beforeunmount\"><a class=\"anchor\" href=\"#beforeunmount\">#</a> beforeUnmount</h1>\n<p>在组件被销毁之前，执行唯一 1 次</p>\n<h1 id=\"unmounted\"><a class=\"anchor\" href=\"#unmounted\">#</a> unmounted</h1>\n<p>组件被销毁后（页面和内存），执行唯一 1 次</p>\n",
             "tags": [
-                "vue",
+                "vue学习笔记",
                 "vue"
             ]
         },
@@ -23,7 +23,10 @@
             "title": "MVVM",
             "date_published": "2022-12-28T09:59:33.292Z",
             "content_html": "<h1 id=\"mvvm\"><a class=\"anchor\" href=\"#mvvm\">#</a> MVVM</h1>\n<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />\n①Model 表示当前页面渲染时所依赖的数据源。<br />\n②View 表示当前页面所渲染的 DOM 结构。<br />\n③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>\n<h1 id=\"工作原理\"><a class=\"anchor\" href=\"#工作原理\">#</a> 工作原理</h1>\n<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />\n当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />\n当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>\n",
-            "tags": []
+            "tags": [
+                "vue学习笔记",
+                "vue"
+            ]
         },
         {
             "id": "http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/",
@@ -32,7 +35,7 @@
             "date_published": "2022-12-28T09:30:31.530Z",
             "content_html": "<h1 id=\"asyncawait\"><a class=\"anchor\" href=\"#asyncawait\">#</a> async/await</h1>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token char\">'A'</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>async function <span class=\"token function\">getAllFile</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token char\">'B'</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre><span class=\"token keyword\">const</span> r1 <span class=\"token operator\">=</span> await thenFs<span class=\"token punctuation\">.</span><span class=\"token function\">readFile</span><span class=\"token punctuation\">(</span>'<span class=\"token punctuation\">.</span>/files<span class=\"token operator\">/</span><span class=\"token number\">1.</span>txt<span class=\"token char\">','</span>utf8'<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token keyword\">const</span> r2 <span class=\"token operator\">=</span> await thenFs<span class=\"token punctuation\">.</span><span class=\"token function\">readFile</span><span class=\"token punctuation\">(</span>'<span class=\"token punctuation\">.</span>/files<span class=\"token operator\">/</span><span class=\"token number\">2.</span>txt<span class=\"token char\">','</span>utf8'<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre><span class=\"token keyword\">const</span> r3 <span class=\"token operator\">=</span> await thenFs<span class=\"token punctuation\">.</span><span class=\"token function\">readFile</span><span class=\"token punctuation\">(</span>'<span class=\"token punctuation\">.</span>/files<span class=\"token operator\">/</span><span class=\"token number\">3.</span>txt<span class=\"token char\">','</span>utf8'<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span>r1<span class=\"token punctuation\">,</span>r2<span class=\"token punctuation\">,</span>r3<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token char\">'D'</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"9\"></td><td><pre><span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre><span class=\"token function\">getAllFile</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"11\"></td><td><pre>console<span class=\"token punctuation\">.</span><span class=\"token function\">log</span><span class=\"token punctuation\">(</span><span class=\"token char\">'C'</span><span class=\"token punctuation\">)</span></pre></td></tr></table></figure><p>最终输出的顺序：A B C 111 222 333 D</p>\n<h2 id=\"使用注意事项\"><a class=\"anchor\" href=\"#使用注意事项\">#</a> 使用注意事项</h2>\n<p>①如果在 function 中使用了 await，则 function 必须被 async 修饰。<br />\n②在 async 方法中，第一个 await 之前的代码会同步执行，await 之后的代码会异步执行。</p>\n<h1 id=\"宏任务和微任务异步任务\"><a class=\"anchor\" href=\"#宏任务和微任务异步任务\">#</a> 宏任务和微任务【异步任务】</h1>\n<h2 id=\"宏任务\"><a class=\"anchor\" href=\"#宏任务\">#</a> 宏任务</h2>\n<p>异步 Ajax 请求<br />\n setTimeout、setInterval<br />\n 文件操作<br />\n其他宏任务</p>\n<h2 id=\"微任务\"><a class=\"anchor\" href=\"#微任务\">#</a> 微任务</h2>\n<p>Promise.then、.catch 和.finally<br />\nprocess.nextTick<br />\n 其他微任务</p>\n<h2 id=\"执行顺序\"><a class=\"anchor\" href=\"#执行顺序\">#</a> 执行顺序</h2>\n<p>每一个宏任务执行完之后，都会检查是否存在待执行的微任务，如果有，则执行完所有微任务之后，再继续执行下一个宏任务。</p>\n",
             "tags": [
-                "JavaScript",
+                "JavaScript学习笔记",
                 "JavaScript"
             ]
         },
@@ -42,7 +45,9 @@
             "title": "前后端的身份认证",
             "date_published": "2022-12-28T08:54:11.821Z",
             "content_html": "<h1 id=\"session认证机制服务端渲染\"><a class=\"anchor\" href=\"#session认证机制服务端渲染\">#</a> Session 认证机制【服务端渲染】</h1>\n<p>①客户端登录：提交账号与密码。<br />\n②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />\n③浏览器自动把 Cookies 存储在当前域名下。<br />\n④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />\n⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />\n⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>\n<h1 id=\"jwt认证机制前后端分离\"><a class=\"anchor\" href=\"#jwt认证机制前后端分离\">#</a> JWT 认证机制【前后端分离】</h1>\n<p>①客户端登录：提交账号与密码。<br />\n②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />\n③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />\n④服务器把 Token 字符串还原成用户的信息对象。<br />\n⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>\n",
-            "tags": []
+            "tags": [
+                "http"
+            ]
         },
         {
             "id": "http://example.com/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/",
@@ -50,7 +55,9 @@
             "title": "HTTP",
             "date_published": "2022-12-28T07:26:31.184Z",
             "content_html": "<h1 id=\"http请求消息的组成部分\"><a class=\"anchor\" href=\"#http请求消息的组成部分\">#</a> HTTP 请求消息的组成部分</h1>\n<h2 id=\"请求行\"><a class=\"anchor\" href=\"#请求行\">#</a> 请求行</h2>\n<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>\n<h2 id=\"请求头部\"><a class=\"anchor\" href=\"#请求头部\">#</a> 请求头部</h2>\n<p>①Host 要请求的服务器域名<br />\n②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />\n③Content-Length 用来描述请求体的大小<br />\n④Accept 客户端可识别的响应内容类型列表<br />\n⑤User-Agent 产生请求的浏览器类型<br />\n⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />\n⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />\n⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>\n<h2 id=\"请求体\"><a class=\"anchor\" href=\"#请求体\">#</a> 请求体</h2>\n<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>\n<h1 id=\"http响应消息的组成部分\"><a class=\"anchor\" href=\"#http响应消息的组成部分\">#</a> HTTP 响应消息的组成部分</h1>\n<h2 id=\"状态行\"><a class=\"anchor\" href=\"#状态行\">#</a> 状态行</h2>\n<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>\n<h2 id=\"响应体\"><a class=\"anchor\" href=\"#响应体\">#</a> 响应体</h2>\n<p>响应体存放的，是服务器响应给客户端的资源内容。</p>\n",
-            "tags": []
+            "tags": [
+                "http"
+            ]
         },
         {
             "id": "http://example.com/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/",
@@ -59,7 +66,7 @@
             "date_published": "2022-12-27T16:45:11.966Z",
             "content_html": "<h1 id=\"javascript的成员查找机制规则\"><a class=\"anchor\" href=\"#javascript的成员查找机制规则\">#</a> JavaScript 的成员查找机制（规则）</h1>\n<p>①当访问一个对象的属性（包括方法）时，首先查找这个对象自身有没有该属性。<br />\n②如果没有就查找它的原型（也就是_proto_指向的 prototype 原型对象）。<br />\n③如果还没有就查找原型对象的原型（Object 的原型对象）。<br />\n④以此类推一直找到 Object 为止（null）。<br />\n⑤_proto_对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。</p>\n<h1 id=\"es5中的新增方法\"><a class=\"anchor\" href=\"#es5中的新增方法\">#</a> ES5 中的新增方法</h1>\n<h2 id=\"字符串方法\"><a class=\"anchor\" href=\"#字符串方法\">#</a> 字符串方法</h2>\n<p>str.trim () 从一个字符串的两端删除空白字符，不影响原字符串本身。</p>\n<h2 id=\"对象方法\"><a class=\"anchor\" href=\"#对象方法\">#</a> 对象方法</h2>\n<p>Object.keys (obj) 用于获取对象自身所有的属性，返回一个由属性名组成的数组。</p>\n<h1 id=\"es6的新增语法\"><a class=\"anchor\" href=\"#es6的新增语法\">#</a> ES6 的新增语法</h1>\n<h2 id=\"let\"><a class=\"anchor\" href=\"#let\">#</a> let</h2>\n<p>作用域为该语句所在的代码块内，不存在变量提升。</p>\n<h2 id=\"const\"><a class=\"anchor\" href=\"#const\">#</a> const</h2>\n<p>声明的是常量，在后面出现的代码中不能再修改该常量的值。</p>\n<h2 id=\"var\"><a class=\"anchor\" href=\"#var\">#</a> var</h2>\n<p>作用域为该语句所在的函数内，且存在变量提升现象。</p>\n",
             "tags": [
-                "JavaScript",
+                "JavaScript学习笔记",
                 "JavaScript"
             ]
         },
@@ -70,7 +77,7 @@
             "date_published": "2022-12-27T12:12:18.418Z",
             "content_html": "<h1 id=\"事件高级\"><a class=\"anchor\" href=\"#事件高级\">#</a> 事件高级</h1>\n<h2 id=\"禁止鼠标右键菜单\"><a class=\"anchor\" href=\"#禁止鼠标右键菜单\">#</a> 禁止鼠标右键菜单</h2>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>document<span class=\"token punctuation\">.</span><span class=\"token function\">addEventListener</span><span class=\"token punctuation\">(</span>'contextmenu'<span class=\"token punctuation\">,</span><span class=\"token function\">function</span><span class=\"token punctuation\">(</span>e<span class=\"token punctuation\">)</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>e<span class=\"token punctuation\">.</span><span class=\"token function\">preventDefault</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token punctuation\">&#125;</span><span class=\"token punctuation\">)</span></pre></td></tr></table></figure><h2 id=\"禁止鼠标选中selectstart-开始选中\"><a class=\"anchor\" href=\"#禁止鼠标选中selectstart-开始选中\">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>document<span class=\"token punctuation\">.</span><span class=\"token function\">addEventListener</span><span class=\"token punctuation\">(</span>'selectstart'<span class=\"token punctuation\">,</span><span class=\"token function\">function</span><span class=\"token punctuation\">(</span>e<span class=\"token punctuation\">)</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>e<span class=\"token punctuation\">.</span><span class=\"token function\">preventDefault</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token punctuation\">&#125;</span><span class=\"token punctuation\">)</span></pre></td></tr></table></figure><h1 id=\"阻止事件冒泡\"><a class=\"anchor\" href=\"#阻止事件冒泡\">#</a> 阻止事件冒泡</h1>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">if</span><span class=\"token punctuation\">(</span>e <span class=\"token operator\">&amp;&amp;</span> e<span class=\"token punctuation\">.</span>stopPropagation<span class=\"token punctuation\">)</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>e<span class=\"token punctuation\">.</span><span class=\"token function\">stopPropagation</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token punctuation\">&#125;</span><span class=\"token keyword\">else</span><span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>window<span class=\"token punctuation\">.</span>event<span class=\"token punctuation\">.</span>cancelBubble <span class=\"token operator\">=</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure><h1 id=\"js执行队列\"><a class=\"anchor\" href=\"#js执行队列\">#</a> JS 执行队列</h1>\n<h2 id=\"同步任务\"><a class=\"anchor\" href=\"#同步任务\">#</a> 同步任务</h2>\n<p>同步任务都在主线程上执行，形成一个执行栈。</p>\n<h2 id=\"异步任务\"><a class=\"anchor\" href=\"#异步任务\">#</a> 异步任务</h2>\n<p>JS 的异步是通过回调函数实现的。<br />\n一般而言，异步任务有以下三种类型：<br />\n1. 普通事件，如 click、resize 等<br />\n 2. 资源加载，如 load、error 等<br />\n 3. 定时器，包括 setInterval、setTimeout 等<br />\n异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>\n",
             "tags": [
-                "JavaScript",
+                "JavaScript学习笔记",
                 "JavaScript"
             ]
         },
@@ -81,7 +88,7 @@
             "date_published": "2022-12-27T11:22:32.369Z",
             "content_html": "<h1 id=\"短路运算\"><a class=\"anchor\" href=\"#短路运算\">#</a> 短路运算</h1>\n<p>① 语法：表达式 1 &amp;&amp; 表达式 2<br />\n 如果表达式 1 的值为真，返回表达式 2<br />\n 如果表达式 1 的值为假，返回表达式 1<br />\n② 语法：表达式 1 || 表达式 2<br />\n 如果表达式 1 的值为真，返回表达式 1<br />\n 如果表达式 1 的值为假，返回表达式 2</p>\n<h1 id=\"三元表达式\"><a class=\"anchor\" href=\"#三元表达式\">#</a> 三元表达式</h1>\n<p>条件表达式 ？ 表达式 1 ： 表达式 2<br />\n 条件表达式结果为真，返回表达式 1<br />\n 条件表达式结果为假，返回表达式 2</p>\n",
             "tags": [
-                "JavaScript",
+                "JavaScript学习笔记",
                 "JavaScript"
             ]
         },
@@ -92,7 +99,7 @@
             "date_published": "2022-12-27T08:26:38.411Z",
             "content_html": "<h1 id=\"vertical-align属性应用只针对行内元素或者行内块元素垂直对齐\"><a class=\"anchor\" href=\"#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐\">#</a> vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐</h1>\n<p>1. 设置图片或者表单（行内块元素）和文字垂直对齐<br />\n 2.vertical-align: baseline |  top  |  middle  |  bottom</p>\n<h2 id=\"解决图片底部默认空白缝隙问题\"><a class=\"anchor\" href=\"#解决图片底部默认空白缝隙问题\">#</a> 解决图片底部默认空白缝隙问题</h2>\n<p>1. 给图片添加 vertical-align: baseline |  top  |  middle  |  bottom 等。（推荐使用）<br />\n2. 把图片转换为块级元素 display:block;</p>\n<h1 id=\"溢出的文字省略号显示\"><a class=\"anchor\" href=\"#溢出的文字省略号显示\">#</a> 溢出的文字省略号显示</h1>\n<h2 id=\"单行文本溢出显示省略号\"><a class=\"anchor\" href=\"#单行文本溢出显示省略号\">#</a> 单行文本溢出显示省略号</h2>\n<p>1. 先强制一行内显示文本 white-space:nowrap;<br />\n2. 超出的部分隐藏 overflow:hidden;<br />\n3. 文本用省略号替代超出的部分 text-overflow:ellipsis;</p>\n<h2 id=\"多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端\"><a class=\"anchor\" href=\"#多行文本溢出显示省略号兼容性问题适用于webkit浏览器或移动端\">#</a> 多行文本溢出显示省略号【兼容性问题，适用于 webKit 浏览器或移动端】</h2>\n<p>1.overflow:hidden;<br />\n2.text-overflow:ellipsis;<br />\n3. 弹性伸缩盒子模型显示 display:-webkit-box;<br />\n4. 限制在一个块元素显示的文本的行数 - webkit-line-clamp:2;<br />\n5. 设置或检索伸缩盒对象的子元素的排列方式 - webkit-box-orient:vertical;</p>\n<h1 id=\"css三角\"><a class=\"anchor\" href=\"#css三角\">#</a> CSS 三角</h1>\n<p>div<br />\n{<br />\nwidth:0;<br />\nheight:0;<br />\nline-height:0;<br />\nfont-size:0;<br />\nborder:50px solid transparent;<br />\nborder-left-color:pink;<br />\n}</p>\n<h1 id=\"css三角强化\"><a class=\"anchor\" href=\"#css三角强化\">#</a> CSS 三角强化</h1>\n<p>width:0;<br />\nheight:0;<br />\nborder-color: transparent red transparent transparent;<br />\nborder-style:solid;<br />\nborder-width:22px 8px 0 0;</p>\n",
             "tags": [
-                "css",
+                "css学习笔记",
                 "CSS学习"
             ]
         },
@@ -103,7 +110,7 @@
             "date_published": "2022-12-27T08:18:21.140Z",
             "content_html": "<h1 id=\"父级添加双伪元素\"><a class=\"anchor\" href=\"#父级添加双伪元素\">#</a> 父级添加双伪元素</h1>\n<p>.clearfix:before,.clearfix:after<br />\n{<br />\ncontent:&quot;&quot;;<br />\ndisplay:table;<br />\n}<br />\n.clearfix:after<br />\n{<br />\nclear:both;<br />\n}<br />\n.clearfix<br />\n{<br />\n*zoom:1;<br />\n}</p>\n<h1 id=\"父级添加overflow属性\"><a class=\"anchor\" href=\"#父级添加overflow属性\">#</a> 父级添加 overflow 属性</h1>\n<p>overflow: hidden;【无法显示溢出盒子部分】</p>\n<h1 id=\"父级添加after伪元素\"><a class=\"anchor\" href=\"#父级添加after伪元素\">#</a> 父级添加 after 伪元素</h1>\n<p>.clearfix:after<br />\n{<br />\ncontent:&quot;&quot;;<br />\ndisplay:block;<br />\nheight:0;<br />\nclear:both;<br />\nvisibility:hidden;<br />\n}<br />\n.clearfix<br />\n{<br />\n*zoom:1;<br />\n}</p>\n<h1 id=\"额外标签法隔墙法\"><a class=\"anchor\" href=\"#额外标签法隔墙法\">#</a> 额外标签法【隔墙法】</h1>\n<blockquote>\n<p>在浮动元素末尾添加一个空的标签。例如 div style=&quot;clear:both&quot;，或者其他标签（如 &lt;br/&gt; 等）【必须为块级元素】。</p>\n</blockquote>\n",
             "tags": [
-                "css",
+                "css学习笔记",
                 "CSS学习"
             ]
         },
@@ -114,7 +121,7 @@
             "date_published": "2022-12-27T07:59:00.777Z",
             "content_html": "<h1 id=\"定位叠放次序选择器-z-index-1\"><a class=\"anchor\" href=\"#定位叠放次序选择器-z-index-1\">#</a> 定位叠放次序【选择器 {z-index: 1;}】</h1>\n<p>1. 默认 auto，数值可以是正整数、负数或者 0，数值越大，盒子越靠上。<br />\n2. 如果属性值相同，按照书写顺序，后来居上<br />\n 3. 只有定位的盒子才有 z-index 属性</p>\n<h1 id=\"定位特殊特性\"><a class=\"anchor\" href=\"#定位特殊特性\">#</a> 定位特殊特性</h1>\n<p>1. 行内元素添加绝对或者固定定位，可以直接设置高度和宽度。<br />\n2. 块级元素添加绝对或者固定定位，如果不给宽度和高度，默认大小是内容的大小。</p>\n<h1 id=\"相对定位\"><a class=\"anchor\" href=\"#相对定位\">#</a> 相对定位</h1>\n<p>选择器 {position: relative;}<br />\n 1. 相对于自己原来的位置移动<br />\n 2. 不脱标，继续保留原来位置</p>\n<h1 id=\"绝对定位\"><a class=\"anchor\" href=\"#绝对定位\">#</a> 绝对定位</h1>\n<p>选择器 {position: absolute;}<br />\n 1. 如果没有祖先元素或者祖先元素没有定位，则以浏览器为准定位。<br />\n2. 如果祖先元素有定位（相对，绝对，固定定位），则以最近一级的有定位祖先元素为参考点移动位置。<br />\n3. 绝对定位不再占有原先的位置。（脱标）</p>\n<h2 id=\"水平居中\"><a class=\"anchor\" href=\"#水平居中\">#</a> 水平居中</h2>\n<p>加了绝对定位的盒子不能通过 margin:0 auto 水平居中，但是可以通过以下计算方法实现水平和垂直居中<br />\n①left:50%;【让盒子左侧移动到父级元素的水平中心位置】<br />\n②margin-left:100%;【让盒子向左移动自身宽度的一半】</p>\n<h1 id=\"固定定位\"><a class=\"anchor\" href=\"#固定定位\">#</a> 固定定位</h1>\n<p>选择器 {position: fixed;}<br />\n 1. 以浏览器的可视窗户为参照点移动元素，跟父元素没有任何关系。<br />\n2. 不能随滚动条滚动。<br />\n3. 固定定位不再占有原先的位置</p>\n<h2 id=\"固定在版心右侧位置\"><a class=\"anchor\" href=\"#固定在版心右侧位置\">#</a> 固定在版心右侧位置</h2>\n<p>小算法：<br />\n①让固定定位盒子 left:50% 走到浏览器可视区（也可以看做版心）的一半位置。<br />\n②让固定定位的盒子 margin-left: 版心宽度的一半距离。多走版心宽度的一半位置，就可以让固定定位的盒子贴着版心右侧对齐了。</p>\n<h1 id=\"绝对定位固定定位会完全压住盒子\"><a class=\"anchor\" href=\"#绝对定位固定定位会完全压住盒子\">#</a> 绝对定位（固定定位）会完全压住盒子</h1>\n<p>1. 浮动元素会压住标准流盒子，不会压住盒子里面的文字（图片）。<br />\n2. 绝对定位（固定定位）会压住下面标准流所有的内容。</p>\n<h1 id=\"脱标的盒子不会触发外边距塌陷\"><a class=\"anchor\" href=\"#脱标的盒子不会触发外边距塌陷\">#</a> 脱标的盒子不会触发外边距塌陷</h1>\n<p>浮动元素、绝对定位（固定定位）元素都不会触发外边距合并的问题。</p>\n<h1 id=\"粘性定位ie不支持\"><a class=\"anchor\" href=\"#粘性定位ie不支持\">#</a> 粘性定位【IE 不支持】</h1>\n<p>选择器 {position: sticky;    top: 10px;}<br />\n 1. 以浏览器的可视窗户为参照点移动元素。<br />\n2. 占有原先的位置。<br />\n3. 必须添加 top、left、right、bottom 其中一个才有效。</p>\n<h1 id=\"静态定位标准流\"><a class=\"anchor\" href=\"#静态定位标准流\">#</a> 静态定位【标准流】</h1>\n<p>选择器 [position：static;]</p>\n<h1 id=\"浮动选择器-float属性值-影响后面的标准流\"><a class=\"anchor\" href=\"#浮动选择器-float属性值-影响后面的标准流\">#</a> 浮动【选择器 {float: 属性值；}】【影响后面的标准流】</h1>\n<p>浮动特性【左右对齐以父盒子为准】：<br />\n①浮动元素会脱离标准流（脱标）<br />\n②浮动的元素会一行内显示并且元素顶部对齐【父级宽度装不下会另起一行显示】<br />\n③浮动的元素会具有行内块元素的特性【大小根据内容决定，盒子之间没有缝隙】</p>\n",
             "tags": [
-                "css",
+                "css学习笔记",
                 "CSS学习"
             ]
         },
@@ -125,7 +132,7 @@
             "date_published": "2022-12-27T07:56:07.669Z",
             "content_html": "<h1 id=\"行内块元素\"><a class=\"anchor\" href=\"#行内块元素\">#</a> 行内块元素</h1>\n<p>1.{img   input    td}<br />\n 2. 水平居中：父元素添加 text-align:center;</p>\n<h1 id=\"行内元素内联元素\"><a class=\"anchor\" href=\"#行内元素内联元素\">#</a> 行内元素【内联元素】</h1>\n<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />\n1.{a  strong  b   em   i   del   s    ins   u   span}<br />\n 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />\n 3. 水平居中：<br />\n父元素添加 text-align:center;</p>\n<h1 id=\"块元素\"><a class=\"anchor\" href=\"#块元素\">#</a> 块元素</h1>\n<blockquote>\n<p>h1~h6   p   div   ul  ol   li</p>\n</blockquote>\n<h1 id=\"元素显示模式转换\"><a class=\"anchor\" href=\"#元素显示模式转换\">#</a> 元素显示模式转换</h1>\n<p>1. 转换为块元素：display:block;<br />\n2. 转换为行内元素：display:inline;<br />\n3. 转换为行内块：display:inline-block;</p>\n",
             "tags": [
-                "css",
+                "css学习笔记",
                 "CSS学习"
             ]
         },
@@ -136,7 +143,7 @@
             "date_published": "2022-12-27T07:52:11.291Z",
             "content_html": "<h1 id=\"外边距margin\"><a class=\"anchor\" href=\"#外边距margin\">#</a> 外边距（margin）</h1>\n<p>1. 盒子与盒子之间距离<br />\n 2. 水平居中：<br />\n①盒子必须指定了宽度 (width)。<br />\n②盒子左右的外边距都设置为 auto。<br />\n【margin:auto;/margin-left:auto;margin-right:auto;/margin: 0 auto;】</p>\n<h2 id=\"外边距合并\"><a class=\"anchor\" href=\"#外边距合并\">#</a> 外边距合并</h2>\n<p>1. 只为一个盒子设置外边距<br />\n 2. 父元素塌陷<br />\n①可以为父元素定义上边框<br />\n②可以为父元素定义上内边距<br />\n③可以为父元素添加 overflow:hidden;</p>\n<h1 id=\"内边距padding\"><a class=\"anchor\" href=\"#内边距padding\">#</a> 内边距（padding）</h1>\n<p>没有指定 width/height，padding 不会撑大盒子</p>\n<h1 id=\"边框border\"><a class=\"anchor\" href=\"#边框border\">#</a> 边框（border）</h1>\n<p>1.border  :  border-width【宽度】 ||   border-style 【样式】   ||    border-color【颜色】（没有顺序）<br />\n2.border-top/bottom/left/right:【具有层叠性】<br />\n3.solid【实线边框】   dashed【虚线边框】   dotted【点线边框】<br />\n4.border-collapse:  collapse;【合并，表示相邻边框合并在一起】</p>\n<h1 id=\"css3盒子模型\"><a class=\"anchor\" href=\"#css3盒子模型\">#</a> CSS3 盒子模型</h1>\n<p>box-sizing:content-box 盒子大小为 width+padding+border<br />\nbox-sizing:border-box 盒子大小为 width</p>\n",
             "tags": [
-                "css",
+                "css学习笔记",
                 "CSS学习"
             ]
         },
@@ -147,7 +154,7 @@
             "date_published": "2022-12-27T07:34:49.141Z",
             "content_html": "<h1 id=\"后代选择器\"><a class=\"anchor\" href=\"#后代选择器\">#</a> 后代选择器</h1>\n<p 样式声明=\"\">元素 1  元素 2【后代】  </p>\n<h1 id=\"子选择器\"><a class=\"anchor\" href=\"#子选择器\">#</a> 子选择器</h1>\n<p 样式声明=\"\">元素 1 &gt; 元素 2【儿子】  </p>\n<h1 id=\"并集选择器\"><a class=\"anchor\" href=\"#并集选择器\">#</a> 并集选择器</h1>\n<p>元素 1 ， 元素 2   {样式声明}【可以选择多组标签】</p>\n<h1 id=\"伪类选择器\"><a class=\"anchor\" href=\"#伪类选择器\">#</a> 伪类选择器</h1>\n<h2 id=\"链接伪类选择器\"><a class=\"anchor\" href=\"#链接伪类选择器\">#</a> 链接伪类选择器</h2>\n<p>顺序不可颠倒，链接样式单独修改<br />\n a {}<br />\n a:hover【选择鼠标指针位于其上的链接】</p>\n<h2 id=\"focus伪类选择器\"><a class=\"anchor\" href=\"#focus伪类选择器\">#</a> :focus 伪类选择器</h2>\n<p>input:focus<br />\n{<br />\nbackground-color:yellow;<br />\n}</p>\n<h1 id=\"优先级\"><a class=\"anchor\" href=\"#优先级\">#</a> 优先级</h1>\n<p>继承 或者 * &lt; 元素选择器 &lt; 类选择器，伪类选择器 &lt; ID 选择器 &lt; 行内样式 style=&quot;&quot; &lt; !important【重要的】</p>\n",
             "tags": [
-                "css",
+                "css学习笔记",
                 "CSS学习"
             ]
         },

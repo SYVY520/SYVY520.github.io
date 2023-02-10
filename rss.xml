@@ -17,7 +17,7 @@
             <guid isPermalink="true">http://example.com/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</guid>
             <title></title>
             <link></link>
-            <category term="vue" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="vue学习笔记" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="vue" scheme="http://example.com/tags/vue/" />
             <pubDate>Wed, 28 Dec 2022 18:44:14 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;beforecreate&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#beforecreate&#34;&gt;#&lt;/a&gt; beforeCreate&lt;/h1&gt;
@@ -42,6 +42,8 @@
             <guid isPermalink="true">http://example.com/MVVM/</guid>
             <title></title>
             <link></link>
+            <category term="vue学习笔记" scheme="http://example.com/categories/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="vue" scheme="http://example.com/tags/vue/" />
             <pubDate>Wed, 28 Dec 2022 17:59:33 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;mvvm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mvvm&#34;&gt;#&lt;/a&gt; MVVM&lt;/h1&gt;
 &lt;p&gt;MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：&lt;br /&gt;
@@ -58,7 +60,7 @@
             <guid isPermalink="true">http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Wed, 28 Dec 2022 17:30:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;asyncawait&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#asyncawait&#34;&gt;#&lt;/a&gt; async/await&lt;/h1&gt;
@@ -84,6 +86,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</guid>
             <title></title>
             <link></link>
+            <category term="http" scheme="http://example.com/tags/http/" />
             <pubDate>Wed, 28 Dec 2022 16:54:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;session认证机制服务端渲染&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#session认证机制服务端渲染&#34;&gt;#&lt;/a&gt; Session 认证机制【服务端渲染】&lt;/h1&gt;
 &lt;p&gt;①客户端登录：提交账号与密码。&lt;br /&gt;
@@ -104,6 +107,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</guid>
             <title></title>
             <link></link>
+            <category term="http" scheme="http://example.com/tags/http/" />
             <pubDate>Wed, 28 Dec 2022 15:26:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;http请求消息的组成部分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#http请求消息的组成部分&#34;&gt;#&lt;/a&gt; HTTP 请求消息的组成部分&lt;/h1&gt;
 &lt;h2 id=&#34;请求行&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#请求行&#34;&gt;#&lt;/a&gt; 请求行&lt;/h2&gt;
@@ -130,7 +134,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Wed, 28 Dec 2022 00:45:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;javascript的成员查找机制规则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#javascript的成员查找机制规则&#34;&gt;#&lt;/a&gt; JavaScript 的成员查找机制（规则）&lt;/h1&gt;
@@ -157,7 +161,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/JavaScript%E4%BA%8B%E4%BB%B6/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Tue, 27 Dec 2022 20:12:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;事件高级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#事件高级&#34;&gt;#&lt;/a&gt; 事件高级&lt;/h1&gt;
@@ -180,7 +184,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</guid>
             <title></title>
             <link></link>
-            <category term="JavaScript" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="JavaScript学习笔记" scheme="http://example.com/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="JavaScript" scheme="http://example.com/tags/JavaScript/" />
             <pubDate>Tue, 27 Dec 2022 19:22:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;短路运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#短路运算&#34;&gt;#&lt;/a&gt; 短路运算&lt;/h1&gt;
@@ -200,7 +204,7 @@ process.nextTick&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E6%8F%90%E5%8D%87/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 27 Dec 2022 16:26:38 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;vertical-align属性应用只针对行内元素或者行内块元素垂直对齐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐&#34;&gt;#&lt;/a&gt; vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐&lt;/h1&gt;
@@ -242,7 +246,7 @@ border-width:22px 8px 0 0;&lt;/p&gt;
             <guid isPermalink="true">http://example.com/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 27 Dec 2022 16:18:21 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;父级添加双伪元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#父级添加双伪元素&#34;&gt;#&lt;/a&gt; 父级添加双伪元素&lt;/h1&gt;
@@ -284,7 +288,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E5%AE%9A%E4%BD%8D%E5%8F%8A%E6%B5%AE%E5%8A%A8/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 27 Dec 2022 15:59:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;定位叠放次序选择器-z-index-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定位叠放次序选择器-z-index-1&#34;&gt;#&lt;/a&gt; 定位叠放次序【选择器 {z-index: 1;}】&lt;/h1&gt;
@@ -339,7 +343,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 27 Dec 2022 15:56:07 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;行内块元素&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#行内块元素&#34;&gt;#&lt;/a&gt; 行内块元素&lt;/h1&gt;
@@ -365,7 +369,7 @@ visibility:hidden;&lt;br /&gt;
             <guid isPermalink="true">http://example.com/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 27 Dec 2022 15:52:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;外边距margin&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#外边距margin&#34;&gt;#&lt;/a&gt; 外边距（margin）&lt;/h1&gt;
@@ -396,7 +400,7 @@ box-sizing:border-box 盒子大小为 width&lt;/p&gt;
             <guid isPermalink="true">http://example.com/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</guid>
             <title></title>
             <link></link>
-            <category term="css" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+            <category term="css学习笔记" scheme="http://example.com/categories/css%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
             <category term="CSS学习" scheme="http://example.com/tags/CSS%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 27 Dec 2022 15:34:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;后代选择器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#后代选择器&#34;&gt;#&lt;/a&gt; 后代选择器&lt;/h1&gt;
