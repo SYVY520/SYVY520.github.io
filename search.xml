@@ -102,6 +102,34 @@ border-width:22px 8px 0 0;</p>
       </tags>
   </entry>
   <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>CSS学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS清除浮动</title>
     <url>/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</url>
     <content><![CDATA[<h1 id="父级添加双伪元素"><a class="anchor" href="#父级添加双伪元素">#</a> 父级添加双伪元素</h1>
@@ -146,34 +174,6 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS盒子模型</title>
     <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
@@ -207,33 +207,6 @@ box-sizing:border-box 盒子大小为 width</p>
       </tags>
   </entry>
   <entry>
-    <title>HTTP</title>
-    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
-<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
-<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
-<p>①Host 要请求的服务器域名<br />
-②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
-③Content-Length 用来描述请求体的大小<br />
-④Accept 客户端可识别的响应内容类型列表<br />
-⑤User-Agent 产生请求的浏览器类型<br />
-⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
-⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
-⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
-<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
-<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
-<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
-<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
-<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
-<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
-<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
-]]></content>
-      <tags>
-        <tag>http</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS选择器及优先级</title>
     <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
     <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
@@ -260,6 +233,33 @@ background-color:yellow;<br />
       </categories>
       <tags>
         <tag>CSS学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTTP</title>
+    <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
+    <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
+<h2 id="请求行"><a class="anchor" href="#请求行">#</a> 请求行</h2>
+<p>请求行由请求方式、URL 和 HTTP 版本协议 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="请求头部"><a class="anchor" href="#请求头部">#</a> 请求头部</h2>
+<p>①Host 要请求的服务器域名<br />
+②Connection 客户端与服务器的连接方式（close 或 keepalive）<br />
+③Content-Length 用来描述请求体的大小<br />
+④Accept 客户端可识别的响应内容类型列表<br />
+⑤User-Agent 产生请求的浏览器类型<br />
+⑥Content-Type 客户端告诉服务器实际发送的数据类型<br />
+⑦Accept-Encoding 客户端可接受的内容压缩编码形式<br />
+⑧Accept-Language 用户期望获得的自然语言的优先顺序</p>
+<h2 id="请求体"><a class="anchor" href="#请求体">#</a> 请求体</h2>
+<p>请求体存放的，是要通过 POST 方式提交到服务器的数据。</p>
+<h1 id="http响应消息的组成部分"><a class="anchor" href="#http响应消息的组成部分">#</a> HTTP 响应消息的组成部分</h1>
+<h2 id="状态行"><a class="anchor" href="#状态行">#</a> 状态行</h2>
+<p>状态行由 HTTP 版本协议、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开。</p>
+<h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
+<p>响应体存放的，是服务器响应给客户端的资源内容。</p>
+]]></content>
+      <tags>
+        <tag>http</tag>
       </tags>
   </entry>
   <entry>
@@ -310,26 +310,6 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
-    <title>MVVM</title>
-    <url>/MVVM/</url>
-    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
-<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
-①Model 表示当前页面渲染时所依赖的数据源。<br />
-②View 表示当前页面所渲染的 DOM 结构。<br />
-③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
-<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
-<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
-当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
-当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
-]]></content>
-      <categories>
-        <category>vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JavaScript面向对象</title>
     <url>/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
     <content><![CDATA[<h1 id="javascript的成员查找机制规则"><a class="anchor" href="#javascript的成员查找机制规则">#</a> JavaScript 的成员查找机制（规则）</h1>
@@ -356,6 +336,26 @@ background-color:yellow;<br />
       </categories>
       <tags>
         <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MVVM</title>
+    <url>/MVVM/</url>
+    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
+<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
+①Model 表示当前页面渲染时所依赖的数据源。<br />
+②View 表示当前页面所渲染的 DOM 结构。<br />
+③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
+<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
+<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
+当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
+当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
+]]></content>
+      <categories>
+        <category>vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
