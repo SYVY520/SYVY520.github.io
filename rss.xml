@@ -39,6 +39,22 @@
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">http://example.com/MVVM/</guid>
+            <title></title>
+            <link></link>
+            <pubDate>Wed, 28 Dec 2022 17:59:33 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;mvvm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mvvm&#34;&gt;#&lt;/a&gt; MVVM&lt;/h1&gt;
+&lt;p&gt;MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：&lt;br /&gt;
+①Model 表示当前页面渲染时所依赖的数据源。&lt;br /&gt;
+②View 表示当前页面所渲染的 DOM 结构。&lt;br /&gt;
+③ViewModel 表示 vue 的实例，它是 MVVM 的核心。&lt;/p&gt;
+&lt;h1 id=&#34;工作原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工作原理&#34;&gt;#&lt;/a&gt; 工作原理&lt;/h1&gt;
+&lt;p&gt;ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。&lt;br /&gt;
+当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构&lt;br /&gt;
+当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</guid>
             <title></title>
             <link></link>

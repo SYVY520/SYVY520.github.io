@@ -18,6 +18,14 @@
             ]
         },
         {
+            "id": "http://example.com/MVVM/",
+            "url": "http://example.com/MVVM/",
+            "title": "MVVM",
+            "date_published": "2022-12-28T09:59:33.292Z",
+            "content_html": "<h1 id=\"mvvm\"><a class=\"anchor\" href=\"#mvvm\">#</a> MVVM</h1>\n<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />\n①Model 表示当前页面渲染时所依赖的数据源。<br />\n②View 表示当前页面所渲染的 DOM 结构。<br />\n③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>\n<h1 id=\"工作原理\"><a class=\"anchor\" href=\"#工作原理\">#</a> 工作原理</h1>\n<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />\n当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />\n当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>\n",
+            "tags": []
+        },
+        {
             "id": "http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/",
             "url": "http://example.com/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/",
             "title": "异步编程高级用法",
