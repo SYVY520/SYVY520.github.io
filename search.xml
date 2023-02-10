@@ -102,50 +102,6 @@ border-width:22px 8px 0 0;</p>
       </tags>
   </entry>
   <entry>
-    <title>CSS清除浮动</title>
-    <url>/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</url>
-    <content><![CDATA[<h1 id="父级添加双伪元素"><a class="anchor" href="#父级添加双伪元素">#</a> 父级添加双伪元素</h1>
-<p>.clearfix:before,.clearfix:after<br />
-{<br />
-content:&quot;&quot;;<br />
-display:table;<br />
-}<br />
-.clearfix:after<br />
-{<br />
-clear:both;<br />
-}<br />
-.clearfix<br />
-{<br />
-*zoom:1;<br />
-}</p>
-<h1 id="父级添加overflow属性"><a class="anchor" href="#父级添加overflow属性">#</a> 父级添加 overflow 属性</h1>
-<p>overflow: hidden;【无法显示溢出盒子部分】</p>
-<h1 id="父级添加after伪元素"><a class="anchor" href="#父级添加after伪元素">#</a> 父级添加 after 伪元素</h1>
-<p>.clearfix:after<br />
-{<br />
-content:&quot;&quot;;<br />
-display:block;<br />
-height:0;<br />
-clear:both;<br />
-visibility:hidden;<br />
-}<br />
-.clearfix<br />
-{<br />
-*zoom:1;<br />
-}</p>
-<h1 id="额外标签法隔墙法"><a class="anchor" href="#额外标签法隔墙法">#</a> 额外标签法【隔墙法】</h1>
-<blockquote>
-<p>在浮动元素末尾添加一个空的标签。例如 div style=&quot;clear:both&quot;，或者其他标签（如 &lt;br/&gt; 等）【必须为块级元素】。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CSS学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS的元素显示模式</title>
     <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
@@ -207,28 +163,47 @@ box-sizing:border-box 盒子大小为 width</p>
       </tags>
   </entry>
   <entry>
-    <title>JavaScript事件</title>
-    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
-<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
-<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
-<p>同步任务都在主线程上执行，形成一个执行栈。</p>
-<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
-<p>JS 的异步是通过回调函数实现的。<br />
-一般而言，异步任务有以下三种类型：<br />
-1. 普通事件，如 click、resize 等<br />
- 2. 资源加载，如 load、error 等<br />
- 3. 定时器，包括 setInterval、setTimeout 等<br />
-异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
+    <title>CSS清除浮动</title>
+    <url>/CSS%E6%B8%85%E9%99%A4%E6%B5%AE%E5%8A%A8/</url>
+    <content><![CDATA[<h1 id="父级添加双伪元素"><a class="anchor" href="#父级添加双伪元素">#</a> 父级添加双伪元素</h1>
+<p>.clearfix:before,.clearfix:after<br />
+{<br />
+content:&quot;&quot;;<br />
+display:table;<br />
+}<br />
+.clearfix:after<br />
+{<br />
+clear:both;<br />
+}<br />
+.clearfix<br />
+{<br />
+*zoom:1;<br />
+}</p>
+<h1 id="父级添加overflow属性"><a class="anchor" href="#父级添加overflow属性">#</a> 父级添加 overflow 属性</h1>
+<p>overflow: hidden;【无法显示溢出盒子部分】</p>
+<h1 id="父级添加after伪元素"><a class="anchor" href="#父级添加after伪元素">#</a> 父级添加 after 伪元素</h1>
+<p>.clearfix:after<br />
+{<br />
+content:&quot;&quot;;<br />
+display:block;<br />
+height:0;<br />
+clear:both;<br />
+visibility:hidden;<br />
+}<br />
+.clearfix<br />
+{<br />
+*zoom:1;<br />
+}</p>
+<h1 id="额外标签法隔墙法"><a class="anchor" href="#额外标签法隔墙法">#</a> 额外标签法【隔墙法】</h1>
+<blockquote>
+<p>在浮动元素末尾添加一个空的标签。例如 div style=&quot;clear:both&quot;，或者其他标签（如 &lt;br/&gt; 等）【必须为块级元素】。</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>JavaScript学习笔记</category>
+        <category>css学习笔记</category>
       </categories>
       <tags>
-        <tag>JavaScript</tag>
+        <tag>CSS学习</tag>
       </tags>
   </entry>
   <entry>
@@ -256,6 +231,31 @@ box-sizing:border-box 盒子大小为 width</p>
 ]]></content>
       <tags>
         <tag>http</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript事件</title>
+    <url>/JavaScript%E4%BA%8B%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="事件高级"><a class="anchor" href="#事件高级">#</a> 事件高级</h1>
+<h2 id="禁止鼠标右键菜单"><a class="anchor" href="#禁止鼠标右键菜单">#</a> 禁止鼠标右键菜单</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'contextmenu'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h2 id="禁止鼠标选中selectstart-开始选中"><a class="anchor" href="#禁止鼠标选中selectstart-开始选中">#</a> 禁止鼠标选中（selectstart 开始选中)</h2>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>'selectstart'<span class="token punctuation">,</span><span class="token function">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="阻止事件冒泡"><a class="anchor" href="#阻止事件冒泡">#</a> 阻止事件冒泡</h1>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">if</span><span class="token punctuation">(</span>e <span class="token operator">&amp;&amp;</span> e<span class="token punctuation">.</span>stopPropagation<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>e<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>window<span class="token punctuation">.</span>event<span class="token punctuation">.</span>cancelBubble <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="js执行队列"><a class="anchor" href="#js执行队列">#</a> JS 执行队列</h1>
+<h2 id="同步任务"><a class="anchor" href="#同步任务">#</a> 同步任务</h2>
+<p>同步任务都在主线程上执行，形成一个执行栈。</p>
+<h2 id="异步任务"><a class="anchor" href="#异步任务">#</a> 异步任务</h2>
+<p>JS 的异步是通过回调函数实现的。<br />
+一般而言，异步任务有以下三种类型：<br />
+1. 普通事件，如 click、resize 等<br />
+ 2. 资源加载，如 load、error 等<br />
+ 3. 定时器，包括 setInterval、setTimeout 等<br />
+异步任务相关回调函数添加到任务队列中（任务队列也称为消息队列）。</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
@@ -359,55 +359,6 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
-    <title>前后端的身份认证</title>
-    <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
-    <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
-<p>①客户端登录：提交账号与密码。<br />
-②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />
-③浏览器自动把 Cookies 存储在当前域名下。<br />
-④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />
-⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />
-⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
-<h1 id="jwt认证机制前后端分离"><a class="anchor" href="#jwt认证机制前后端分离">#</a> JWT 认证机制【前后端分离】</h1>
-<p>①客户端登录：提交账号与密码。<br />
-②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />
-③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />
-④服务器把 Token 字符串还原成用户的信息对象。<br />
-⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
-]]></content>
-      <tags>
-        <tag>http</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>异步编程高级用法</title>
-    <url>/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="asyncawait"><a class="anchor" href="#asyncawait">#</a> async/await</h1>
-<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'A'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre>async function <span class="token function">getAllFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'B'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">const</span> r1 <span class="token operator">=</span> await thenFs<span class="token punctuation">.</span><span class="token function">readFile</span><span class="token punctuation">(</span>'<span class="token punctuation">.</span>/files<span class="token operator">/</span><span class="token number">1.</span>txt<span class="token char">','</span>utf8'<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">const</span> r2 <span class="token operator">=</span> await thenFs<span class="token punctuation">.</span><span class="token function">readFile</span><span class="token punctuation">(</span>'<span class="token punctuation">.</span>/files<span class="token operator">/</span><span class="token number">2.</span>txt<span class="token char">','</span>utf8'<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">const</span> r3 <span class="token operator">=</span> await thenFs<span class="token punctuation">.</span><span class="token function">readFile</span><span class="token punctuation">(</span>'<span class="token punctuation">.</span>/files<span class="token operator">/</span><span class="token number">3.</span>txt<span class="token char">','</span>utf8'<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="7"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>r1<span class="token punctuation">,</span>r2<span class="token punctuation">,</span>r3<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'D'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token function">getAllFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="11"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'C'</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>最终输出的顺序：A B C 111 222 333 D</p>
-<h2 id="使用注意事项"><a class="anchor" href="#使用注意事项">#</a> 使用注意事项</h2>
-<p>①如果在 function 中使用了 await，则 function 必须被 async 修饰。<br />
-②在 async 方法中，第一个 await 之前的代码会同步执行，await 之后的代码会异步执行。</p>
-<h1 id="宏任务和微任务异步任务"><a class="anchor" href="#宏任务和微任务异步任务">#</a> 宏任务和微任务【异步任务】</h1>
-<h2 id="宏任务"><a class="anchor" href="#宏任务">#</a> 宏任务</h2>
-<p>异步 Ajax 请求<br />
- setTimeout、setInterval<br />
- 文件操作<br />
-其他宏任务</p>
-<h2 id="微任务"><a class="anchor" href="#微任务">#</a> 微任务</h2>
-<p>Promise.then、.catch 和.finally<br />
-process.nextTick<br />
- 其他微任务</p>
-<h2 id="执行顺序"><a class="anchor" href="#执行顺序">#</a> 执行顺序</h2>
-<p>每一个宏任务执行完之后，都会检查是否存在待执行的微任务，如果有，则执行完所有微任务之后，再继续执行下一个宏任务。</p>
-]]></content>
-      <categories>
-        <category>JavaScript学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客搭建：配置【主题：shoka】</title>
     <url>/blog/</url>
     <content><![CDATA[<h1 id="事件起因"><a class="anchor" href="#事件起因">#</a> 事件起因</h1>
@@ -481,6 +432,55 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
       </categories>
       <tags>
         <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>异步编程高级用法</title>
+    <url>/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="asyncawait"><a class="anchor" href="#asyncawait">#</a> async/await</h1>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'A'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre>async function <span class="token function">getAllFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'B'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">const</span> r1 <span class="token operator">=</span> await thenFs<span class="token punctuation">.</span><span class="token function">readFile</span><span class="token punctuation">(</span>'<span class="token punctuation">.</span>/files<span class="token operator">/</span><span class="token number">1.</span>txt<span class="token char">','</span>utf8'<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">const</span> r2 <span class="token operator">=</span> await thenFs<span class="token punctuation">.</span><span class="token function">readFile</span><span class="token punctuation">(</span>'<span class="token punctuation">.</span>/files<span class="token operator">/</span><span class="token number">2.</span>txt<span class="token char">','</span>utf8'<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token keyword">const</span> r3 <span class="token operator">=</span> await thenFs<span class="token punctuation">.</span><span class="token function">readFile</span><span class="token punctuation">(</span>'<span class="token punctuation">.</span>/files<span class="token operator">/</span><span class="token number">3.</span>txt<span class="token char">','</span>utf8'<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="7"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>r1<span class="token punctuation">,</span>r2<span class="token punctuation">,</span>r3<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'D'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token function">getAllFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="11"></td><td><pre>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token char">'C'</span><span class="token punctuation">)</span></pre></td></tr></table></figure><p>最终输出的顺序：A B C 111 222 333 D</p>
+<h2 id="使用注意事项"><a class="anchor" href="#使用注意事项">#</a> 使用注意事项</h2>
+<p>①如果在 function 中使用了 await，则 function 必须被 async 修饰。<br />
+②在 async 方法中，第一个 await 之前的代码会同步执行，await 之后的代码会异步执行。</p>
+<h1 id="宏任务和微任务异步任务"><a class="anchor" href="#宏任务和微任务异步任务">#</a> 宏任务和微任务【异步任务】</h1>
+<h2 id="宏任务"><a class="anchor" href="#宏任务">#</a> 宏任务</h2>
+<p>异步 Ajax 请求<br />
+ setTimeout、setInterval<br />
+ 文件操作<br />
+其他宏任务</p>
+<h2 id="微任务"><a class="anchor" href="#微任务">#</a> 微任务</h2>
+<p>Promise.then、.catch 和.finally<br />
+process.nextTick<br />
+ 其他微任务</p>
+<h2 id="执行顺序"><a class="anchor" href="#执行顺序">#</a> 执行顺序</h2>
+<p>每一个宏任务执行完之后，都会检查是否存在待执行的微任务，如果有，则执行完所有微任务之后，再继续执行下一个宏任务。</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前后端的身份认证</title>
+    <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
+    <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
+<p>①客户端登录：提交账号与密码。<br />
+②服务器验证账号和密码，将生成的 Cookies 响应给客户端。<br />
+③浏览器自动把 Cookies 存储在当前域名下。<br />
+④客户端再次发起请求时，通过请求头自动把当前域名下所有可用的 Cookies 发送给服务器。<br />
+⑤服务器根据请求头中携带的 Cookies，从内存中查找对应的用户信息。<br />
+⑥用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
+<h1 id="jwt认证机制前后端分离"><a class="anchor" href="#jwt认证机制前后端分离">#</a> JWT 认证机制【前后端分离】</h1>
+<p>①客户端登录：提交账号与密码。<br />
+②服务器验证账号和密码，验证通过后，将用户的信息对象，经过加密之后生成 Token 字符串发送给客户端。<br />
+③客户端再次发起请求时，通过请求头的 Authorization 字段，将 Token 发给服务器。<br />
+④服务器把 Token 字符串还原成用户的信息对象。<br />
+⑤用户的身份认证成功后，把当前用户对应的页面内容响应给浏览器。</p>
+]]></content>
+      <tags>
+        <tag>http</tag>
       </tags>
   </entry>
 </search>
