@@ -146,34 +146,6 @@ visibility:hidden;<br />
       </tags>
   </entry>
   <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS盒子模型</title>
     <url>/CSS%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<h1 id="外边距margin"><a class="anchor" href="#外边距margin">#</a> 外边距（margin）</h1>
@@ -236,6 +208,34 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
+]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTTP</title>
     <url>/HTTP%E8%AF%B7%E6%B1%82%E6%B6%88%E6%81%AF/</url>
     <content><![CDATA[<h1 id="http请求消息的组成部分"><a class="anchor" href="#http请求消息的组成部分">#</a> HTTP 请求消息的组成部分</h1>
@@ -258,6 +258,35 @@ background-color:yellow;<br />
 <h2 id="响应体"><a class="anchor" href="#响应体">#</a> 响应体</h2>
 <p>响应体存放的，是服务器响应给客户端的资源内容。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>JavaScript面向对象</title>
+    <url>/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[<h1 id="javascript的成员查找机制规则"><a class="anchor" href="#javascript的成员查找机制规则">#</a> JavaScript 的成员查找机制（规则）</h1>
+<p>①当访问一个对象的属性（包括方法）时，首先查找这个对象自身有没有该属性。<br />
+②如果没有就查找它的原型（也就是_proto_指向的 prototype 原型对象）。<br />
+③如果还没有就查找原型对象的原型（Object 的原型对象）。<br />
+④以此类推一直找到 Object 为止（null）。<br />
+⑤_proto_对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。</p>
+<h1 id="es5中的新增方法"><a class="anchor" href="#es5中的新增方法">#</a> ES5 中的新增方法</h1>
+<h2 id="字符串方法"><a class="anchor" href="#字符串方法">#</a> 字符串方法</h2>
+<p>str.trim () 从一个字符串的两端删除空白字符，不影响原字符串本身。</p>
+<h2 id="对象方法"><a class="anchor" href="#对象方法">#</a> 对象方法</h2>
+<p>Object.keys (obj) 用于获取对象自身所有的属性，返回一个由属性名组成的数组。</p>
+<h1 id="es6的新增语法"><a class="anchor" href="#es6的新增语法">#</a> ES6 的新增语法</h1>
+<h2 id="let"><a class="anchor" href="#let">#</a> let</h2>
+<p>作用域为该语句所在的代码块内，不存在变量提升。</p>
+<h2 id="const"><a class="anchor" href="#const">#</a> const</h2>
+<p>声明的是常量，在后面出现的代码中不能再修改该常量的值。</p>
+<h2 id="var"><a class="anchor" href="#var">#</a> var</h2>
+<p>作用域为该语句所在的函数内，且存在变量提升现象。</p>
+]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
   </entry>
   <entry>
     <title>JavaScript事件</title>
@@ -307,33 +336,18 @@ background-color:yellow;<br />
       </tags>
   </entry>
   <entry>
-    <title>JavaScript面向对象</title>
-    <url>/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
-    <content><![CDATA[<h1 id="javascript的成员查找机制规则"><a class="anchor" href="#javascript的成员查找机制规则">#</a> JavaScript 的成员查找机制（规则）</h1>
-<p>①当访问一个对象的属性（包括方法）时，首先查找这个对象自身有没有该属性。<br />
-②如果没有就查找它的原型（也就是_proto_指向的 prototype 原型对象）。<br />
-③如果还没有就查找原型对象的原型（Object 的原型对象）。<br />
-④以此类推一直找到 Object 为止（null）。<br />
-⑤_proto_对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。</p>
-<h1 id="es5中的新增方法"><a class="anchor" href="#es5中的新增方法">#</a> ES5 中的新增方法</h1>
-<h2 id="字符串方法"><a class="anchor" href="#字符串方法">#</a> 字符串方法</h2>
-<p>str.trim () 从一个字符串的两端删除空白字符，不影响原字符串本身。</p>
-<h2 id="对象方法"><a class="anchor" href="#对象方法">#</a> 对象方法</h2>
-<p>Object.keys (obj) 用于获取对象自身所有的属性，返回一个由属性名组成的数组。</p>
-<h1 id="es6的新增语法"><a class="anchor" href="#es6的新增语法">#</a> ES6 的新增语法</h1>
-<h2 id="let"><a class="anchor" href="#let">#</a> let</h2>
-<p>作用域为该语句所在的代码块内，不存在变量提升。</p>
-<h2 id="const"><a class="anchor" href="#const">#</a> const</h2>
-<p>声明的是常量，在后面出现的代码中不能再修改该常量的值。</p>
-<h2 id="var"><a class="anchor" href="#var">#</a> var</h2>
-<p>作用域为该语句所在的函数内，且存在变量提升现象。</p>
+    <title>MVVM</title>
+    <url>/MVVM/</url>
+    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
+<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
+①Model 表示当前页面渲染时所依赖的数据源。<br />
+②View 表示当前页面所渲染的 DOM 结构。<br />
+③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
+<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
+<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
+当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
+当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
 ]]></content>
-      <categories>
-        <category>JavaScript</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hexo博客搭建：配置【主题：shoka】</title>
@@ -382,20 +396,6 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 <p>“about” 这个界面在哪个文件里面做的？<br />
 在 Blog\source 中新建一个文件夹取名 about，然后在里面建立一个 index.md 作为 about 页面内容。</p>
 </div>
-]]></content>
-  </entry>
-  <entry>
-    <title>MVVM</title>
-    <url>/MVVM/</url>
-    <content><![CDATA[<h1 id="mvvm"><a class="anchor" href="#mvvm">#</a> MVVM</h1>
-<p>MVVM 是 vue 实现数据驱动视图和双向数据绑定的核心原理。MVVM 指的是 Model、View 和 ViewModel，它把每个 HTML 页面都拆分成了这三个部分：<br />
-①Model 表示当前页面渲染时所依赖的数据源。<br />
-②View 表示当前页面所渲染的 DOM 结构。<br />
-③ViewModel 表示 vue 的实例，它是 MVVM 的核心。</p>
-<h1 id="工作原理"><a class="anchor" href="#工作原理">#</a> 工作原理</h1>
-<p>ViewModel 作为 MVVM 的核心，是它把当前页面的数据源（Model）和页面的结构（View）连接在了一起。<br />
-当数据源发生变化时，会被 ViewModel 监听到，VM 会根据最新的数据源自动更新页面的结构<br />
-当表单元素的值发生变化时，也会被 VM 监听到，VM 会把变化过后最新的值自动同步到 Model 数据源中。</p>
 ]]></content>
   </entry>
   <entry>
