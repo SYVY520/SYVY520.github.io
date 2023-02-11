@@ -58,34 +58,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CSS的元素显示模式</title>
-    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
-<p>1.{img   input    td}<br />
- 2. 水平居中：父元素添加 text-align:center;</p>
-<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
-<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
-1.{a  strong  b   em   i   del   s    ins   u   span}<br />
- 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
- 3. 水平居中：<br />
-父元素添加 text-align:center;</p>
-<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
-<blockquote>
-<p>h1~h6   p   div   ul  ol   li</p>
-</blockquote>
-<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
-<p>1. 转换为块元素：display:block;<br />
-2. 转换为行内元素：display:inline;<br />
-3. 转换为行内块：display:inline-block;</p>
-]]></content>
-      <categories>
-        <category>css学习笔记</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS提升</title>
     <url>/CSS%E6%8F%90%E5%8D%87/</url>
     <content><![CDATA[<h1 id="vertical-align属性应用只针对行内元素或者行内块元素垂直对齐"><a class="anchor" href="#vertical-align属性应用只针对行内元素或者行内块元素垂直对齐">#</a> vertical-align 属性应用【只针对行内元素或者行内块元素】垂直对齐</h1>
@@ -126,6 +98,34 @@
 <blockquote>
 <p>在浮动元素末尾添加一个空的标签。例如 div style=&quot;clear:both&quot;，或者其他标签（如 &lt;br/&gt; 等）【必须为块级元素】。</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>css学习笔记</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSS的元素显示模式</title>
+    <url>/CSS%E7%9A%84%E5%85%83%E7%B4%A0%E6%98%BE%E7%A4%BA%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="行内块元素"><a class="anchor" href="#行内块元素">#</a> 行内块元素</h1>
+<p>1.{img   input    td}<br />
+ 2. 水平居中：父元素添加 text-align:center;</p>
+<h1 id="行内元素内联元素"><a class="anchor" href="#行内元素内联元素">#</a> 行内元素【内联元素】</h1>
+<p>【高、宽直接设置是无效的】【只能容纳文本或其他行内元素】<br />
+1.{a  strong  b   em   i   del   s    ins   u   span}<br />
+ 2. 特殊情况链接 a 可以放块级元素，不可以再放链接<br />
+ 3. 水平居中：<br />
+父元素添加 text-align:center;</p>
+<h1 id="块元素"><a class="anchor" href="#块元素">#</a> 块元素</h1>
+<blockquote>
+<p>h1~h6   p   div   ul  ol   li</p>
+</blockquote>
+<h1 id="元素显示模式转换"><a class="anchor" href="#元素显示模式转换">#</a> 元素显示模式转换</h1>
+<p>1. 转换为块元素：display:block;<br />
+2. 转换为行内元素：display:inline;<br />
+3. 转换为行内块：display:inline-block;</p>
 ]]></content>
       <categories>
         <category>css学习笔记</category>
@@ -223,28 +223,6 @@ box-sizing:border-box 盒子大小为 width</p>
       </tags>
   </entry>
   <entry>
-    <title>JavaScript条件判断</title>
-    <url>/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</url>
-    <content><![CDATA[<h1 id="短路运算"><a class="anchor" href="#短路运算">#</a> 短路运算</h1>
-<p>① 语法：表达式 1 &amp;&amp; 表达式 2<br />
- 如果表达式 1 的值为真，返回表达式 2<br />
- 如果表达式 1 的值为假，返回表达式 1<br />
-② 语法：表达式 1 || 表达式 2<br />
- 如果表达式 1 的值为真，返回表达式 1<br />
- 如果表达式 1 的值为假，返回表达式 2</p>
-<h1 id="三元表达式"><a class="anchor" href="#三元表达式">#</a> 三元表达式</h1>
-<p>条件表达式 ？ 表达式 1 ： 表达式 2<br />
- 条件表达式结果为真，返回表达式 1<br />
- 条件表达式结果为假，返回表达式 2</p>
-]]></content>
-      <categories>
-        <category>JavaScript学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CSS选择器及优先级</title>
     <url>/CSS%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%85%88%E7%BA%A7/</url>
     <content><![CDATA[<h1 id="后代选择器"><a class="anchor" href="#后代选择器">#</a> 后代选择器</h1>
@@ -267,6 +245,28 @@ box-sizing:border-box 盒子大小为 width</p>
       </categories>
       <tags>
         <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaScript条件判断</title>
+    <url>/JavaScript%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</url>
+    <content><![CDATA[<h1 id="短路运算"><a class="anchor" href="#短路运算">#</a> 短路运算</h1>
+<p>① 语法：表达式 1 &amp;&amp; 表达式 2<br />
+ 如果表达式 1 的值为真，返回表达式 2<br />
+ 如果表达式 1 的值为假，返回表达式 1<br />
+② 语法：表达式 1 || 表达式 2<br />
+ 如果表达式 1 的值为真，返回表达式 1<br />
+ 如果表达式 1 的值为假，返回表达式 2</p>
+<h1 id="三元表达式"><a class="anchor" href="#三元表达式">#</a> 三元表达式</h1>
+<p>条件表达式 ？ 表达式 1 ： 表达式 2<br />
+ 条件表达式结果为真，返回表达式 1<br />
+ 条件表达式结果为假，返回表达式 2</p>
+]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
@@ -369,33 +369,6 @@ shoka 额外添加配置：<span class="exturl" data-url="aHR0cHM6Ly93d3cubGF2ZW
 ]]></content>
   </entry>
   <entry>
-    <title>vue组件的生命周期</title>
-    <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
-    <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
-<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>
-<h1 id="created"><a class="anchor" href="#created">#</a> created</h1>
-<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>
-<h1 id="beforemount"><a class="anchor" href="#beforemount">#</a> beforeMount</h1>
-<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>
-<h1 id="mounted"><a class="anchor" href="#mounted">#</a> mounted</h1>
-<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>
-<h1 id="beforeupdated"><a class="anchor" href="#beforeupdated">#</a> beforeUpdated</h1>
-<p>在组件被重新渲染之前，执行 0 或 多次</p>
-<h1 id="updated"><a class="anchor" href="#updated">#</a> updated</h1>
-<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>
-<h1 id="beforeunmount"><a class="anchor" href="#beforeunmount">#</a> beforeUnmount</h1>
-<p>在组件被销毁之前，执行唯一 1 次</p>
-<h1 id="unmounted"><a class="anchor" href="#unmounted">#</a> unmounted</h1>
-<p>组件被销毁后（页面和内存），执行唯一 1 次</p>
-]]></content>
-      <categories>
-        <category>vue学习笔记</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>flex弹性布局</title>
     <url>/flex%E5%BC%B9%E6%80%A7%E5%B8%83%E5%B1%80/</url>
     <content><![CDATA[<h1 id="现状"><a class="anchor" href="#现状">#</a> 现状</h1>
@@ -452,6 +425,33 @@ flex-flow: 复合属性，相当于同时设置了 flex-direction 和 flex-wrap<
       </tags>
   </entry>
   <entry>
+    <title>vue组件的生命周期</title>
+    <url>/vue%E7%BB%84%E4%BB%B6%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
+    <content><![CDATA[<h1 id="beforecreate"><a class="anchor" href="#beforecreate">#</a> beforeCreate</h1>
+<p>在内存中开始创建组件之前，执行唯一 1 次，组件的 props/data/methods 尚未被创建，都处于不可用状态。</p>
+<h1 id="created"><a class="anchor" href="#created">#</a> created</h1>
+<p>组件在内存中创建完毕后，执行唯一 1 次，发 ajax 请求初始数据，组件的模板结构尚未生成。</p>
+<h1 id="beforemount"><a class="anchor" href="#beforemount">#</a> beforeMount</h1>
+<p>在把组件初次渲染到页面之前，执行唯一 1 次，此时浏览器还没有当前组件的 DOM 结构。</p>
+<h1 id="mounted"><a class="anchor" href="#mounted">#</a> mounted</h1>
+<p>组件初次在页面中渲染完毕后，执行唯一 1 次，操作 DOM 元素</p>
+<h1 id="beforeupdated"><a class="anchor" href="#beforeupdated">#</a> beforeUpdated</h1>
+<p>在组件被重新渲染之前，执行 0 或 多次</p>
+<h1 id="updated"><a class="anchor" href="#updated">#</a> updated</h1>
+<p>组件在页面中被重新渲染完毕后，执行 0 或 多次</p>
+<h1 id="beforeunmount"><a class="anchor" href="#beforeunmount">#</a> beforeUnmount</h1>
+<p>在组件被销毁之前，执行唯一 1 次</p>
+<h1 id="unmounted"><a class="anchor" href="#unmounted">#</a> unmounted</h1>
+<p>组件被销毁后（页面和内存），执行唯一 1 次</p>
+]]></content>
+      <categories>
+        <category>vue学习笔记</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前后端的身份认证</title>
     <url>/%E5%89%8D%E5%90%8E%E7%AB%AF%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81/</url>
     <content><![CDATA[<h1 id="session认证机制服务端渲染"><a class="anchor" href="#session认证机制服务端渲染">#</a> Session 认证机制【服务端渲染】</h1>
@@ -476,6 +476,28 @@ flex-flow: 复合属性，相当于同时设置了 flex-direction 和 flex-wrap<
       </tags>
   </entry>
   <entry>
+    <title>防抖节流</title>
+    <url>/%E9%98%B2%E6%8A%96%E8%8A%82%E6%B5%81/</url>
+    <content><![CDATA[<h1 id="防抖"><a class="anchor" href="#防抖">#</a> 防抖</h1>
+<p>防抖策略：是当事件被触发后，延迟 n 秒后再执行回调，如果这 n 秒内事件又被处罚，则重新计时。</p>
+<h2 id="防抖的应用场景"><a class="anchor" href="#防抖的应用场景">#</a> 防抖的应用场景</h2>
+<p>用户再输入框中连续输入一串字符时，可以通过防抖策略，只有输入完成后，才执行查询的请求，这样可以有效减少请求次数，节约请求资源。</p>
+<h2 id="实现输入框的防抖"><a class="anchor" href="#实现输入框的防抖">#</a> 实现输入框的防抖</h2>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token keyword">null</span> <span class="token comment">//1. 防抖动的 timer</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">function</span> <span class="token function">debounceSearch</span><span class="token punctuation">(</span><span class="token parameter">keywords</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token comment">//2. 定义防抖的函数</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token comment">// 发起 JSONP 请求</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token function">getSuggextList</span><span class="token punctuation">(</span>keywords<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#ipt'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'keyup'</span><span class="token punctuation">,</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token comment">//3. 在触发 keyup 事件时，立即清空 timer</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token function">clearTimeout</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token comment">//。。。省略其他代码</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token function">debounceSearch</span><span class="token punctuation">(</span>keywords<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="12"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="节流"><a class="anchor" href="#节流">#</a> 节流</h1>
+<p>节流策略：可以减少一段时间内事件的触发频率。</p>
+<h2 id="应用场景"><a class="anchor" href="#应用场景">#</a> 应用场景</h2>
+<p>1. 鼠标连续不断地触发某事件（如点击），只在单位时间内只触发一次；<br />
+2. 懒加载时要监听计算滚动条的位置，但不必每次滑动都触发，可以降低计算的频率，而不必去浪费 CPU 资源；</p>
+<h2 id="使用节流优化鼠标跟随效果"><a class="anchor" href="#使用节流优化鼠标跟随效果">#</a> 使用节流优化鼠标跟随效果</h2>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">var</span> angel <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#angel'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token keyword">null</span><span class="token comment">//1. 预定义一个 timer 节流阀</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'mousemove'</span><span class="token punctuation">,</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token keyword">if</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token keyword">return</span><span class="token punctuation">&#125;</span><span class="token comment">//3. 判断节流阀是否为空，如果不为空，则证明距离上次执行间隔不足 16 毫秒</span></pre></td></tr><tr><td data-num="6"></td><td><pre>        timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>            <span class="token function">$</span><span class="token punctuation">(</span>angel<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'left'</span><span class="token punctuation">,</span>e<span class="token punctuation">.</span>pageX<span class="token operator">+</span><span class="token string">'px'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'top'</span><span class="token punctuation">,</span>e<span class="token punctuation">.</span>pageY<span class="token operator">+</span><span class="token string">'px'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre>            timer <span class="token operator">=</span> <span class="token keyword">null</span><span class="token comment">//2. 当设置了鼠标跟随效果后，清空 timer 节流阀，方便下次开启延时器</span></pre></td></tr><tr><td data-num="9"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token number">16</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>JavaScript学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>异步编程高级用法</title>
     <url>/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95/</url>
     <content><![CDATA[<h1 id="asyncawait"><a class="anchor" href="#asyncawait">#</a> async/await</h1>
@@ -496,28 +518,6 @@ process.nextTick<br />
 <h2 id="执行顺序"><a class="anchor" href="#执行顺序">#</a> 执行顺序</h2>
 <p>每一个宏任务执行完之后，都会检查是否存在待执行的微任务，如果有，则执行完所有微任务之后，再继续执行下一个宏任务。</p>
 ]]></content>
-      <categories>
-        <category>JavaScript学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaScript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>防抖节流</title>
-    <url>/%E9%98%B2%E6%8A%96%E8%8A%82%E6%B5%81/</url>
-    <content><![CDATA[<h1 id="防抖"><a class="anchor" href="#防抖">#</a> 防抖</h1>
-<p>防抖策略：是当事件被触发后，延迟 n 秒后再执行回调，如果这 n 秒内事件又被处罚，则重新计时。</p>
-<h2 id="防抖的应用场景"><a class="anchor" href="#防抖的应用场景">#</a> 防抖的应用场景</h2>
-<p>用户再输入框中连续输入一串字符时，可以通过防抖策略，只有输入完成后，才执行查询的请求，这样可以有效减少请求次数，节约请求资源。</p>
-<h2 id="实现输入框的防抖"><a class="anchor" href="#实现输入框的防抖">#</a> 实现输入框的防抖</h2>
-<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token keyword">null</span> <span class="token comment">//1. 防抖动的 timer</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">function</span> <span class="token function">debounceSearch</span><span class="token punctuation">(</span><span class="token parameter">keywords</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token comment">//2. 定义防抖的函数</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token comment">// 发起 JSONP 请求</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token function">getSuggextList</span><span class="token punctuation">(</span>keywords<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#ipt'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'keyup'</span><span class="token punctuation">,</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token comment">//3. 在触发 keyup 事件时，立即清空 timer</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token function">clearTimeout</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token comment">//。。。省略其他代码</span></pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token function">debounceSearch</span><span class="token punctuation">(</span>keywords<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="12"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><h1 id="节流"><a class="anchor" href="#节流">#</a> 节流</h1>
-<p>节流策略：可以减少一段时间内事件的触发频率。</p>
-<h2 id="应用场景"><a class="anchor" href="#应用场景">#</a> 应用场景</h2>
-<p>1. 鼠标连续不断地触发某事件（如点击），只在单位时间内只触发一次；<br />
-2. 懒加载时要监听计算滚动条的位置，但不必每次滑动都触发，可以降低计算的频率，而不必去浪费 CPU 资源；</p>
-<h2 id="使用节流优化鼠标跟随效果"><a class="anchor" href="#使用节流优化鼠标跟随效果">#</a> 使用节流优化鼠标跟随效果</h2>
-<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token keyword">var</span> angel <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#angel'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token keyword">null</span><span class="token comment">//1. 预定义一个 timer 节流阀</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'mousemove'</span><span class="token punctuation">,</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token keyword">if</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">&#123;</span><span class="token keyword">return</span><span class="token punctuation">&#125;</span><span class="token comment">//3. 判断节流阀是否为空，如果不为空，则证明距离上次执行间隔不足 16 毫秒</span></pre></td></tr><tr><td data-num="6"></td><td><pre>        timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>            <span class="token function">$</span><span class="token punctuation">(</span>angel<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'left'</span><span class="token punctuation">,</span>e<span class="token punctuation">.</span>pageX<span class="token operator">+</span><span class="token string">'px'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'top'</span><span class="token punctuation">,</span>e<span class="token punctuation">.</span>pageY<span class="token operator">+</span><span class="token string">'px'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="8"></td><td><pre>            timer <span class="token operator">=</span> <span class="token keyword">null</span><span class="token comment">//2. 当设置了鼠标跟随效果后，清空 timer 节流阀，方便下次开启延时器</span></pre></td></tr><tr><td data-num="9"></td><td><pre>        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span><span class="token number">16</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>JavaScript学习笔记</category>
       </categories>
